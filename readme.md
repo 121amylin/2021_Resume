@@ -16,3 +16,5 @@ json-server --watch public/db.json
 - 搭配postman使用
 [postman教學](https://www.youtube.com/watch?v=R8GL5y49iJc&t=2510s)
 ****
+#### 【Vuex】
+- [Vue 爬坑之路（六）—— 使用Vuex + axios 發送請求](https://www.cnblogs.com/wisewrong/p/6402183.html)

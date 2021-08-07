@@ -7,13 +7,14 @@ Vue.use(Vuex)
 Vue.use(VueAxios, axios)
 
 export default new Vuex.Store({
-  state: {
-
-  },
-  mutations: {
-  },
+  state: {},
+  mutations: {},
   actions: {
+    GET_DATE () {
+      axios.get('./db.json').then(response => {
+        console.log(response.data)
+      })
+    }
   },
-  modules: {
-  }
+  modules: {}
 })
