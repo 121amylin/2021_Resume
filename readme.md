@@ -21,5 +21,5 @@ json-server --watch public/db.json
 
 
 ### 【design】
-[[純css動畫] 波浪](https://penueling.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E7%B4%94css%E5%8B%95%E7%95%AB-%E6%B3%A2%E6%B5%AA/)
+- [[純css動畫] 波浪](https://penueling.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E7%B4%94css%E5%8B%95%E7%95%AB-%E6%B3%A2%E6%B5%AA/)
 
