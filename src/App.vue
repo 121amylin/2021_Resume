@@ -4,7 +4,7 @@
       <router-link to="/">首頁</router-link> |
       <router-link to="/into">經歷介紹</router-link> |
       <router-link to="/work">作品展示</router-link> |
-      <router-link to="/Ability">能力自評</router-link> |
+      <!-- <router-link to="/Ability">能力自評</router-link> | -->
       <router-link to="/more">了解更多</router-link>
     </div>
     <router-view/>

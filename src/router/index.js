@@ -1,19 +1,19 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
 import Into from '../views/Into.vue'
 import Work from '../views/Work.vue'
-import Ability from '../views/Ability.vue'
+// import Ability from '../views/Ability.vue'
 import More from '../views/More.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home
+  // },
   {
     path: '/',
     name: 'Into',
@@ -24,11 +24,11 @@ const routes = [
     name: 'Work',
     component: Work
   },
-  {
-    path: '/',
-    name: 'Ability',
-    component: Ability
-  },
+  // {
+  //   path: '/',
+  //   name: 'Ability',
+  //   component: Ability
+  // },
   {
     path: '/',
     name: 'More',
