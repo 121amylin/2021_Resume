@@ -1,35 +1,44 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">首頁</router-link> |
-      <router-link to="/into">經歷介紹</router-link> |
-      <router-link to="/work">作品展示</router-link> |
-      <!-- <router-link to="/Ability">能力自評</router-link> | -->
-      <router-link to="/more">了解更多</router-link>
-    </div>
-    <router-view/>
+  <div id='app' class='wrwp'>
+    <Header></Header>
+    <Footer></Footer>
+
+    <router-view />
   </div>
 </template>
+<script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+export default {
+  components: {
+    Header, Footer
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
   }
+}
+</script>
+<style lang='scss'>
+$main_color: #007ced;
+$gray_color: #666;
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  padding: 20px;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  font: 62.5% / 1 微軟正黑體, 'Microsoft JhengHei', Arial, Helvetica, sans-serif;
+  background-color: $main_color;
+}
+.wrwp {
+  background-color: #fff;
+  border-radius: 30px;
+  min-height: calc(100vh - 80px);
+  padding: 30px 40px;
 }
 </style>
