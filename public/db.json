@@ -72,33 +72,45 @@
   "skill": [
     {
       "id": 0,
-      "class": "HTML5",
-      "descript": [
-        "符合W3C規範的語意標籤",
-        "讓搜尋引擎了解網頁中每個區塊的意義"
+      "class": "網站開發技能",
+      "item": [
+        {
+          "id": 0,
+          "class": "HTML5",
+          "descript": [
+            "符合W3C規範的語意標籤",
+            "讓搜尋引擎了解網頁中每個區塊的意義"
+          ]
+        },
+        {
+          "id": 1,
+          "class": "SCSS / CSS3",
+          "descript": [
+            "手刻 RWD 頁面",
+            "熟悉 SCSS 語法，模組化、層級繼承觀念",
+            "Bootstrap框架應用"
+          ]
+        },
+        {
+          "id": 2,
+          "class": "jQuery / javaScript",
+          "descript": ["應用JQuery套件完成客戶需求", "持續精進javaScript技能"]
+        }
       ]
     },
+
     {
       "id": 1,
-      "class": "SCSS / CSS3",
-      "descript": [
-        "手刻 RWD 頁面",
-        "熟悉 SCSS 語法，模組化、層級繼承觀念",
-        "Bootstrap框架應用"
-      ]
-    },
-    {
-      "id": 2,
-      "class": "jQuery / javaScript",
-      "descript": ["應用JQuery套件完成客戶需求", "持續精進javaScript技能"]
-    },
-    {
-      "id": 3,
       "class": "UI/UX設計技能",
       "descript": [
         "繪製使用者介面圖像、illustrator 向量圖形",
         "使用Photoshop 繪製素材、網站主視覺圖"
       ]
+    },
+    {
+      "id": 2,
+      "class": "網站開發環境知識",
+      "descript": ["版控", "webpack", "http傳輸知識"]
     }
   ],
   "featured": [
@@ -825,7 +837,7 @@
               "link": "http://keen-pro.demoicm.urb2b.com/msg/message-Video-40.html"
             }
           ],
-          "title": "金展__History",
+          "title": "金展__Video",
           "pic": "",
           "descript": ""
         }
@@ -848,14 +860,13 @@
       "descript": "",
       "work": [
         { "id": 0, "title": "丞威", "pic_list": "" },
-        { "id": 0, "title": "和昕", "pic_list": "" },
-        { "id": 0, "title": "大丸", "pic_list": "" },
-        { "id": 1, "title": "憶利得", "pic_list": "" },
-        { "id": 2, "title": "合曼", "pic_list": "" },
-        { "id": 3, "title": "眾邦", "pic_list": "" },
-        { "id": 4, "title": "歐群", "pic_list": "" },
-        { "id": 5, "title": "縉錩", "pic_list": "" },
-        { "id": 6, "title": "昶安", "pic_list": "" }
+        { "id": 1, "title": "和昕", "pic_list": "" }
+        { "id": 2, "title": "憶利得", "pic_list": "" },
+        { "id": 3, "title": "合曼", "pic_list": "" },
+        { "id": 4, "title": "眾邦", "pic_list": "" },
+        { "id": 5, "title": "歐群", "pic_list": "" },
+        { "id": 6, "title": "縉錩", "pic_list": "" },
+        { "id": 7, "title": "昶安", "pic_list": "" }
       ]
     }
   },
