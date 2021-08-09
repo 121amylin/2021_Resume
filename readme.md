@@ -28,3 +28,8 @@ json-server --watch public/db.json
 - [VSCode Prettier 整合 ESLint 自動排版](https://wcc723.github.io/development/2021/04/11/vscode-eslint-prettier/)
 - [關於 vue/cli4.x vue-cli@4.x版本瀏覽器兼容問題處理，兼容 ie](https://blog.csdn.net/csl125/article/details/110038701
 )
+
+### 【模版處理】
+[[Webpack][vue.js] 動態編譯 assets 嘗試
+](https://yuugou727.github.io/blog/2018/04/09/webpack-vue-dynamic-assets/
+)

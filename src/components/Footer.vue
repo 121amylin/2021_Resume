@@ -1,14 +1,17 @@
 <template>
-  <div class="footer">
-    <div id="nav">
-      {{ db.into }}
-      <router-link to="/">履歷介紹</router-link>
-      <!-- <router-link to='/into'>經歷介紹</router-link> -->
-      <router-link to="/work">作品展示</router-link>
-      <!-- <router-link to='/Ability'>能力自評</router-link> -->
-      <router-link to="/more">了解更多</router-link>
+  <div class="container">
+    <div class="footer">
+      <div id="nav">
+        <router-link to="/">履歷介紹</router-link>
+        <!-- <router-link to='/into'>經歷介紹</router-link> -->
+        <router-link to="/work">作品展示</router-link>
+        <!-- <router-link to='/Ability'>能力自評</router-link> -->
+        <router-link to="/more">了解更多</router-link>
+      </div>
+      <div class="copyright" v-if="isloadend">
+        © {{ getYear }} {{ get_title }}
+      </div>
     </div>
-    <div class="copyright">© {{ getYear }} 林欣美作品集網站</div>
   </div>
 </template>
 
@@ -17,12 +20,20 @@ export default {
   name: 'Footer',
   data () {
     return {
-      db: ''
+      isloadend: false
     }
   },
   computed: {
     getYear () {
       return new Date().getFullYear()
+    },
+    get_title () {
+      return this.$store.state.into.title
+    }
+  },
+  mounted () {
+    if (this.$store.state) {
+      this.isload = true
     }
   }
 }
