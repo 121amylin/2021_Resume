@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  font: 62.5% / 1 微軟正黑體, "Microsoft JhengHei", Arial, Helvetica, sans-serif;
+}
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+dt,
+th {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+dd,
+td,
+li a,
+p {
+  line-height: 1.75;
+  font-size: 1.5rem;
+}
+li {
+  list-style: none;
+  list-style-position: inside;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}

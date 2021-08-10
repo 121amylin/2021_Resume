@@ -1,0 +1,35 @@
+@import "var_mixin";
+@import "reset";
+
+.main_color_10_bg {
+  background-color: $main_color_10;
+}
+.bgam {
+  min-height: calc(100vh - 80px);
+  padding: 40px;
+}
+.wrwp {
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.container {
+  padding: 0 40px;
+}
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.clear {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.flex {
+  display: flex;
+}

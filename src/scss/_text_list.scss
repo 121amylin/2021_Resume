@@ -1,0 +1,16 @@
+.text_list {
+  li {
+    position: relative;
+    padding-left: 16px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 2px;
+      background-color: #999;
+      transform: translateY(-50%);
+      left: 0;
+      top: 50%;
+    }
+  }
+}
