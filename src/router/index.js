@@ -20,7 +20,7 @@ const routes = [
   //   component: Into
   // },
   {
-    path: '/',
+    path: '/work',
     name: 'Work',
     component: Work
   },
@@ -30,7 +30,7 @@ const routes = [
   //   component: Ability
   // },
   {
-    path: '/',
+    path: '/More',
     name: 'More',
     component: More
   }

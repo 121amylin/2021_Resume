@@ -8,8 +8,7 @@
       "mail": "122amylin@gmail.com"
     }
   },
-  "experience": [
-    {
+  "experience": [{
       "id": 0,
       "year": "2021",
       "unit": "久大行銷",
@@ -51,8 +50,7 @@
       ]
     }
   ],
-  "education": [
-    {
+  "education": [{
       "id": 0,
       "year": "2012",
       "school": "亞東技術學院",
@@ -69,12 +67,10 @@
       "state": "畢業"
     }
   ],
-  "skill": [
-    {
+  "skill": [{
       "id": 0,
       "class": "網站開發技能",
-      "item": [
-        {
+      "item": [{
           "id": 0,
           "class": "HTML5",
           "descript": [
@@ -113,8 +109,7 @@
       "descript": ["版控", "webpack", "http傳輸知識"]
     }
   ],
-  "featured": [
-    {
+  "featured": [{
       "id": 0,
       "link": "https://idbpark.moeaidb.gov.tw/",
       "title": "經濟部能源局工業用地網",
@@ -143,7 +138,6 @@
       ],
       "descript": ""
     },
-
     {
       "id": 2,
       "link": "http://www.longrange.com.tw/",
@@ -174,15 +168,21 @@
       "descript": ""
     }
   ],
-  "wrok": {
+  "wrok_group": {
+    "old_refurbished": {
+      "type": "",
+      "descript": "",
+      "work": []
+    },
     "public_sector": {
+      "type": "table_arr",
       "descript": "",
       "work": [
         {
           "id": 0,
           "link": "https://idbpark.moeaidb.gov.tw/",
           "title": "經濟部能源局工業用地網",
-          "pic": "/images/web/pic_09.png",
+          "pic": "/images/web/public_sector/pic1.jpg",
           "list": [
             "首頁Redesign、RWD",
             "float切版",
@@ -197,7 +197,7 @@
           "id": 1,
           "link": "https://www.chinabiz.org.tw/brand/",
           "title": "大陸台灣經貿網",
-          "pic": "",
+          "pic": "/images/web/public_sector/pic2.jpg",
           "list": [
             "七大主題館改版專案",
             "形象視覺設計",
@@ -211,7 +211,7 @@
           "id": 2,
           "title": "台灣電力企業聯合會",
           "link": "http://www.tepa108.org.tw/",
-          "pic": "images/pic9.png",
+          "pic": "/images/web/public_sector/pic4.jpg",
           "list": [
             "形象視覺設計",
             "float切版",
@@ -225,9 +225,9 @@
       ]
     },
     "custom_program": {
+      "type": "table_arr",
       "descript": "",
-      "work": [
-        {
+      "work": [{
           "id": 0,
           "link": "http://www.homi.com.tw/",
           "title": "禾米特用材料股份有限公司",
@@ -256,19 +256,15 @@
         }
       ]
     },
-
-    "old_refurbished": {
-      "descript": "",
-      "work": []
-    },
     "chamge_to_web": {
+      "type": "picture_list",
       "descript": "",
       "work": [
         {
           "id": 0,
           "link": "http://guangyang-ky.demoicm.urb2b.com",
           "title": "光陽",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_0.jpg",
           "list": [],
           "descript": ""
         },
@@ -276,7 +272,7 @@
           "id": 1,
           "link": "https://www.majestic-webbing.com.tw/",
           "title": "美其",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_1.jpg",
           "list": [],
           "descript": ""
         },
@@ -284,7 +280,7 @@
           "id": 2,
           "link": "http://heryow.demoicm.urb2b.com/",
           "title": "葉合佑",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_2.jpg",
           "list": [],
           "descript": ""
         },
@@ -292,7 +288,7 @@
           "id": 3,
           "link": "https://www.amexlock.com/",
           "title": "得一",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_3.jpg",
           "list": [],
           "descript": ""
         },
@@ -300,7 +296,7 @@
           "id": 4,
           "link": "https://www.pnm-hvacr.com/",
           "title": "大來",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_4.jpg",
           "list": [],
           "descript": ""
         },
@@ -308,7 +304,7 @@
           "id": 5,
           "link": "https://www.paoching-garden.com/",
           "title": "寶慶",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_5.jpg",
           "list": [],
           "descript": ""
         },
@@ -316,7 +312,7 @@
           "id": 6,
           "link": "https://www.shinican.com/",
           "title": "新益",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_6.jpg",
           "list": [],
           "descript": ""
         },
@@ -324,20 +320,20 @@
           "id": 7,
           "link": "https://www.chinhsing.com/",
           "title": "進興",
-          "pic": "",
+          "pic": "/images/web/chamge_to_web/chamge_to_web_7.jpg",
           "list": [],
           "descript": ""
         }
       ]
     },
     "one_page": {
+      "type": "picture_list",
       "descript": "",
-      "work": [
-        {
+      "work": [{
           "id": 0,
           "link": "https://www.ushio-taiwan.com/event/index.html",
           "title": "優志旺",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_0.jpg",
           "list": [],
           "descript": ""
         },
@@ -345,7 +341,7 @@
           "id": 1,
           "link": "http://customer.urb2b.com/~amylin0204/Zhaowei_20200922/",
           "title": "兆威",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_1.jpg",
           "list": [],
           "descript": ""
         },
@@ -353,7 +349,7 @@
           "id": 2,
           "link": "https://www.jjgpaperbag.com/event/",
           "title": "壯佳果",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_2.jpg",
           "list": [],
           "descript": ""
         },
@@ -361,7 +357,7 @@
           "id": 3,
           "link": "https://www.evaglory.com/event/FOAM_EXPO_USA_2021/index.html",
           "title": "鎔利",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_3.jpg",
           "list": [],
           "descript": ""
         },
@@ -369,7 +365,7 @@
           "id": 4,
           "link": "https://www.cartridgeweb.com/qr/paperworld-2020/",
           "title": "上福全球科技股份有限公司",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_4.jpg",
           "list": [],
           "descript": ""
         },
@@ -377,7 +373,7 @@
           "id": 5,
           "link": "http://customer.urb2b.com/~amylin0204/hermesClues-onePage-ISPO2020_V1R2/index.html",
           "title": "合曼",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_5.jpg",
           "list": [],
           "descript": ""
         },
@@ -385,7 +381,7 @@
           "id": 6,
           "link": "https://www.beanunion.com/qr/event-Kbb-2020/",
           "title": "眾邦金屬",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_6.jpg",
           "list": [],
           "descript": ""
         },
@@ -393,7 +389,7 @@
           "id": 7,
           "link": "https://www.chuen-an.com/Event/packexpo_lasvegas_2019.html",
           "title": "昶安",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_7.jpg",
           "list": [],
           "descript": ""
         },
@@ -401,20 +397,20 @@
           "id": 8,
           "link": "https://www.sucoot.com/qr/MOSBUILD2020/",
           "title": "實固",
-          "pic": "",
+          "pic": "/images/web/one_page/one_page_8.jpg",
           "list": [],
           "descript": ""
         }
       ]
     },
     "design": {
+      "type": "table_obj",
       "descript": "",
       "work": [
         {
           "id": 0,
           "title": "光陽",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/index.html"
@@ -440,14 +436,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/show_secmenu.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_0.jpg",
           "descript": ""
         },
         {
           "id": 1,
           "title": "瀧澤",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/index.html"
@@ -473,14 +468,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/show_secmenu.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_1.jpg",
           "descript": ""
         },
         {
           "id": 2,
           "title": "美其",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/index.html"
@@ -506,14 +500,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/show_secmenu.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_2.jpg",
           "descript": ""
         },
         {
           "id": 3,
           "title": "易周",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/index.html"
@@ -539,14 +532,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/show_secmenu.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_3.jpg",
           "descript": ""
         },
         {
           "id": 4,
           "title": "宏國",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/hkdc-0612/index.html"
@@ -562,27 +554,24 @@
               "url": "http://customer.urb2b.com/~amylin0204/hkdc-0612/more.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_4.jpg",
           "descript": ""
         },
         {
           "id": 5,
           "title": "大來",
-          "link": [
-            {
-              "id": 0,
-              "title": "正式站",
-              "url": "https://www.pnm-hvacr.com/"
-            }
-          ],
-          "pic": "",
+          "link": [{
+            "id": 0,
+            "title": "正式站",
+            "url": "https://www.pnm-hvacr.com/"
+          }],
+          "pic": "/images/web/design/design_5.jpg",
           "descript": ""
         },
         {
           "id": 6,
           "title": "新益",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "A版_總覽頁",
               "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerA_list.html"
@@ -613,14 +602,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerB_more.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_6.jpg",
           "descript": ""
         },
         {
           "id": 7,
           "title": "宏于電機",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "官網",
               "url": "https://www.horngyu.com/webls-zh-tw/index.html"
@@ -636,14 +624,13 @@
               "url": "http://customer.urb2b.com/~amylin0204/horngyucom_demo_0827/index2.html"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_7.jpg",
           "descript": ""
         },
         {
           "id": 8,
           "title": "金鼎",
-          "link": [
-            {
+          "link": [{
               "id": 0,
               "title": "首頁",
               "url": "http://customer.urb2b.com/~amylin0204/new-ctprotek-20200327/public_html/index.html"
@@ -664,19 +651,19 @@
               "url": "http://www.ctprotek.com.tw/"
             }
           ],
-          "pic": "",
+          "pic": "/images/web/design/design_8.jpg",
           "descript": ""
         }
       ]
     },
     "template": {
+      "type": "picture_list",
       "descript": "",
-      "work": [
-        {
+      "work": [{
           "id": 0,
           "link": "https://www.atmax-tech.com/",
           "title": "渼科斯",
-          "pic": "",
+          "pic": "/images/web/template/template_0.jpg",
           "list": [],
           "descript": ""
         },
@@ -684,7 +671,7 @@
           "id": 1,
           "link": "https://www.cambus-tw.com/",
           "title": "嘉亨",
-          "pic": "",
+          "pic": "/images/web/template/template_1.jpg",
           "list": [],
           "descript": ""
         },
@@ -692,7 +679,7 @@
           "id": 2,
           "link": "http://www.bola-tek.com.tw/",
           "title": "珍鋼",
-          "pic": "",
+          "pic": "/images/web/template/template_2.jpg",
           "list": [],
           "descript": ""
         },
@@ -700,7 +687,7 @@
           "id": 3,
           "link": "http://www.goodtoolstw.com/",
           "title": "湳昌",
-          "pic": "",
+          "pic": "/images/web/template/template_3.jpg",
           "list": [],
           "descript": ""
         },
@@ -708,7 +695,7 @@
           "id": 4,
           "link": "https://www.asa-seal.com/",
           "title": "匯得利",
-          "pic": "",
+          "pic": "/images/web/template/template_4.jpg",
           "list": [],
           "descript": ""
         },
@@ -716,7 +703,7 @@
           "id": 5,
           "link": "http://ktlcarts.demoicm.urb2b.com/",
           "title": "康得倫",
-          "pic": "",
+          "pic": "/images/web/template/template_5.jpg",
           "list": [],
           "descript": ""
         },
@@ -724,7 +711,7 @@
           "id": 6,
           "link": "http://jzcasting-tw.demoicm.urb2b.com/",
           "title": "晶鉦",
-          "pic": "",
+          "pic": "/images/web/template/template_6.jpg",
           "list": [],
           "descript": ""
         },
@@ -732,7 +719,7 @@
           "id": 7,
           "link": "https://www.chinli-evafoam.com/",
           "title": "今立",
-          "pic": "",
+          "pic": "/images/web/template/template_7.jpg",
           "list": [],
           "descript": ""
         },
@@ -740,7 +727,7 @@
           "id": 8,
           "link": "http://iontech.www52.icm99.com/",
           "title": "泓記",
-          "pic": "",
+          "pic": "/images/web/template/template_8.jpg",
           "list": [],
           "descript": ""
         },
@@ -748,7 +735,7 @@
           "id": 9,
           "link": "https://www.kaochen.com/",
           "title": "高禎",
-          "pic": "",
+          "pic": "/images/web/template/template_9.jpg",
           "list": [],
           "descript": ""
         },
@@ -756,7 +743,7 @@
           "id": 10,
           "link": "http://tw-woodworking.www56.icm99.com/",
           "title": "勇錩順",
-          "pic": "",
+          "pic": "/images/web/template/template_10.jpg",
           "list": [],
           "descript": ""
         },
@@ -764,7 +751,7 @@
           "id": 11,
           "link": "http://www.hornegrace.com.tw/",
           "title": "宏恩眼鏡",
-          "pic": "",
+          "pic": "/images/web/template/template_11.jpg",
           "list": [],
           "descript": ""
         },
@@ -772,7 +759,7 @@
           "id": 12,
           "link": "https://www.taicheer.com/",
           "title": "泰圻",
-          "pic": "",
+          "pic": "/images/web/template/template_12.jpg",
           "list": [],
           "descript": ""
         },
@@ -780,7 +767,7 @@
           "id": 13,
           "link": "https://alc0985315119.com.tw/",
           "title": "晶鼎",
-          "pic": "",
+          "pic": "/images/web/template/template_13.jpg",
           "list": [],
           "descript": ""
         },
@@ -788,113 +775,315 @@
           "id": 14,
           "link": "https://www.udnpack.com/",
           "title": "凡宇",
-          "pic": "",
+          "pic": "/images/web/template/template_14.jpg",
           "list": [],
           "descript": ""
         }
       ]
     },
     "unid_design_make": {
+      "type": "picture_list",
       "descript": "",
-      "work": [
-        {
+      "work": [{
           "id": 0,
-          "link": [
-            {
+          "title": "金展__History",
+          "link": [{
               "id": 0,
               "title": "提版",
-              "link": "http://customer.urb2b.com/~tzufen.chen/keen-pro/history.html"
+              "link": "http://customer.urb2b.com/~tzufen.chen/keen-pro/history.html",
+              "pic": "",
+              "list": [],
+              "descript": ""
             },
             {
               "id": 1,
               "title": "切版",
-              "link": "http://keen-pro.demoicm.urb2b.com/msg/message-History-32.html"
+              "link": "http://keen-pro.demoicm.urb2b.com/msg/message-History-32.html",
+              "pic": "",
+              "list": [],
+              "descript": ""
             }
           ],
-          "title": "金展__History",
-          "pic": "",
+          "pic": "/images/web/unid_design_make/unid_design_make_0.jpg",
           "descript": ""
         },
         {
           "id": 1,
-          "link": [
-            {
-              "id": 2,
-              "title": "上線",
-              "link": "http://cm-pet.www52.icm99.com/msg/turnkey-solution.html"
-            }
-          ],
           "title": "嘉明__整廠規劃",
-          "pic": "",
+          "link": [{
+            "id": 2,
+            "title": "上線",
+            "link": "http://cm-pet.www52.icm99.com/msg/turnkey-solution.html",
+            "pic": "",
+            "list": [],
+            "descript": ""
+          }],
+          "pic": "/images/web/unid_design_make/unid_design_make_1.jpg",
           "descript": ""
         },
         {
           "id": 2,
-          "link": [
-            {
-              "id": 0,
-              "title": "上線",
-              "link": "http://keen-pro.demoicm.urb2b.com/msg/message-Video-40.html"
-            }
-          ],
           "title": "金展__Video",
-          "pic": "",
+          "link": [{
+            "id": 0,
+            "title": "上線",
+            "link": "http://keen-pro.demoicm.urb2b.com/msg/message-Video-40.html",
+            "pic": "",
+            "list": [],
+            "descript": ""
+          }],
+          "pic": "/images/web/unid_design_make/unid_design_make_2.jpg",
           "descript": ""
         }
       ]
     },
     "Design_OEM": {
+      "type": "table_obj",
       "descript": "",
-      "work": [
-        {
+      "work": [{
+        "id": 0,
+        "title": "亮宇農曆新年賀卡",
+        "link": [{
           "id": 0,
-          "title": "亮宇農曆新年賀卡",
-          "link": [
-            "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_ch",
-            "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_en"
-          ]
-        }
-      ]
+          "title": "中文版",
+          "url": "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_ch"
+        }, {
+          "id": 1,
+          "title": "英文版",
+          "url": "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_en"
+        }],
+        "pic": "/images/web/Design_OEM/Design_OEM_0.jpg",
+        "descript": ""
+      }]
     },
     "design_GDN": {
+      "type": "lightbox_picture_list",
       "descript": "",
-      "work": [
-        { "id": 0, "title": "丞威", "pic_list": "" },
-        { "id": 1, "title": "和昕", "pic_list": "" },
-        { "id": 2, "title": "憶利得", "pic_list": "" },
-        { "id": 3, "title": "合曼", "pic_list": "" },
-        { "id": 4, "title": "眾邦", "pic_list": "" },
-        { "id": 5, "title": "歐群", "pic_list": "" },
-        { "id": 6, "title": "縉錩", "pic_list": "" },
-        { "id": 7, "title": "昶安", "pic_list": "" }
+      "work": [{
+          "id": 0,
+          "title": "丞威",
+          "main_pic": "/images/design_GDN/00/pic (1).jpg",
+          "pic_list": 
+           ["/images/design_GDN/00/pic (1).jpg",
+            "/images/design_GDN/00/pic (2).jpg",
+            "/images/design_GDN/00/pic (3).jpg",
+            "/images/design_GDN/00/pic (4).jpg",
+            "/images/design_GDN/00/pic (5).jpg",
+            "/images/design_GDN/00/pic (6).jpg",
+            "/images/design_GDN/00/pic (7).jpg",
+            "/images/design_GDN/00/pic (8).jpg",
+            "/images/design_GDN/00/pic (9).jpg",
+            "/images/design_GDN/00/pic (10).jpg",
+            "/images/design_GDN/00/pic (11).jpg",
+            "/images/design_GDN/00/pic (12).jpg",
+            "/images/design_GDN/00/pic (13).jpg",
+            "/images/design_GDN/00/pic (14).jpg",
+            "/images/design_GDN/00/pic (15).jpg",
+            "/images/design_GDN/00/pic (16).jpg",
+            "/images/design_GDN/00/pic (17).jpg",
+            "/images/design_GDN/00/pic (18).jpg",
+            "/images/design_GDN/00/pic (19).jpg",
+            "/images/design_GDN/00/pic (20).jpg",
+            "/images/design_GDN/00/pic (21).jpg",
+            "/images/design_GDN/00/pic (22).jpg"
+          ]
+        },
+        {
+          "id": 1,
+          "title": "和昕",
+          "main_pic": "",
+          "pic_list": [
+            "/images/design_GDN/01/banner1.jpg",
+            "/images/design_GDN/01/banner2.jpg",
+            "/images/design_GDN/01/banner3.jpg"]
+        },
+        {
+          "id": 2,
+          "title": "憶利得",
+          "main_pic": "/images/design_GDN/02/pic (1).jpg",
+          "pic_list": [      
+            "/images/design_GDN/02/pic (1).jpg",
+            "/images/design_GDN/02/pic (2).jpg",
+            "/images/design_GDN/02/pic (3).jpg",
+            "/images/design_GDN/02/pic (4).jpg",
+            "/images/design_GDN/02/pic (5).jpg",
+            "/images/design_GDN/02/pic (6).jpg",
+            "/images/design_GDN/02/pic (7).jpg",
+            "/images/design_GDN/02/pic (8).jpg",
+            "/images/design_GDN/02/pic (9).jpg",
+            "/images/design_GDN/02/pic (10).jpg",
+            "/images/design_GDN/02/pic (11).jpg",
+            "/images/design_GDN/02/pic (12).jpg",
+            "/images/design_GDN/02/pic (13).jpg",
+            "/images/design_GDN/02/pic (14).jpg",
+            "/images/design_GDN/02/pic (15).jpg",
+            "/images/design_GDN/02/pic (16).jpg",
+            "/images/design_GDN/02/pic (17).jpg",
+            "/images/design_GDN/02/pic (18).jpg",
+            "/images/design_GDN/02/pic (19).jpg",
+            "/images/design_GDN/02/pic (20).jpg",
+            "/images/design_GDN/02/pic (21).jpg",
+            "/images/design_GDN/02/pic (22).jpg",
+            "/images/design_GDN/02/pic.jpg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "合曼",
+          "main_pic": "/images/design_GDN/03/pic (1).jpg",
+          "pic_list": [
+            "/images/design_GDN/03/pic (1).jpg",
+            "/images/design_GDN/03/pic (2).jpg",
+            "/images/design_GDN/03/pic (3).jpg",
+            "/images/design_GDN/03/pic (4).jpg",
+            "/images/design_GDN/03/pic (5).jpg",
+            "/images/design_GDN/03/pic (6).jpg",
+            "/images/design_GDN/03/pic (7).jpg",
+            "/images/design_GDN/03/pic (8).jpg",
+            "/images/design_GDN/03/pic (9).jpg",
+            "/images/design_GDN/03/pic (10).jpg",
+            "/images/design_GDN/03/pic (11).jpg",
+            "/images/design_GDN/03/pic (12).jpg",
+            "/images/design_GDN/03/pic (13).jpg",
+            "/images/design_GDN/03/pic (14).jpg",
+            "/images/design_GDN/03/pic (15).jpg",
+            "/images/design_GDN/03/pic (16).jpg",
+            "/images/design_GDN/03/pic (17).jpg",
+            "/images/design_GDN/03/pic (18).jpg",
+            "/images/design_GDN/03/pic (19).jpg",
+            "/images/design_GDN/03/pic (20).jpg",
+            "/images/design_GDN/03/pic (21).jpg",
+            "/images/design_GDN/03/pic (22).jpg",
+            "/images/design_GDN/03/pic.jpg"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "眾邦",
+          "main_pic": "/images/design_GDN/04/pic (1).jpg",
+          "pic_list": [
+            "/images/design_GDN/04/pic (1).jpg",
+            "/images/design_GDN/04/pic (2).jpg",
+            "/images/design_GDN/04/pic (3).jpg",
+            "/images/design_GDN/04/pic (4).jpg",
+            "/images/design_GDN/04/pic (5).jpg",
+            "/images/design_GDN/04/pic (6).jpg",
+            "/images/design_GDN/04/pic (7).jpg",
+            "/images/design_GDN/04/pic (8).jpg",
+            "/images/design_GDN/04/pic (9).jpg",
+            "/images/design_GDN/04/pic (10).jpg",
+            "/images/design_GDN/04/pic (11).jpg",
+            "/images/design_GDN/04/pic (12).jpg",
+            "/images/design_GDN/04/pic (13).jpg",
+            "/images/design_GDN/04/pic (14).jpg",
+            "/images/design_GDN/04/pic (15).jpg",
+            "/images/design_GDN/04/pic (16).jpg",
+            "/images/design_GDN/04/pic (17).jpg",
+            "/images/design_GDN/04/pic (18).jpg",
+            "/images/design_GDN/04/pic (19).jpg",
+            "/images/design_GDN/04/pic (20).jpg",
+            "/images/design_GDN/04/pic (21).jpg",
+            "/images/design_GDN/04/pic (22).jpg",
+            "/images/design_GDN/04/pic.jpg"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "歐群",
+          "main_pic": "/images/design_GDN/05/120x90.jpg",
+          "pic_list": ["/images/design_GDN/05/120x90.jpg","/images/design_GDN/05/236x60.jpg"]
+        },
+        {
+          "id": 6,
+          "title": "縉錩",
+          "main_pic": "/images/design_GDN/06/pic (1).jpg",
+          "pic_list": [
+            "/images/design_GDN/06/pic (1).jpg",
+            "/images/design_GDN/06/pic (2).jpg",
+            "/images/design_GDN/06/pic (3).jpg",
+            "/images/design_GDN/06/pic (4).jpg",
+            "/images/design_GDN/06/pic (5).jpg",
+            "/images/design_GDN/06/pic (6).jpg",
+            "/images/design_GDN/06/pic (7).jpg",
+            "/images/design_GDN/06/pic (8).jpg",
+            "/images/design_GDN/06/pic (9).jpg",
+            "/images/design_GDN/06/pic (10).jpg",
+            "/images/design_GDN/06/pic (11).jpg",
+            "/images/design_GDN/06/pic (12).jpg",
+            "/images/design_GDN/06/pic (13).jpg",
+            "/images/design_GDN/06/pic (14).jpg",
+            "/images/design_GDN/06/pic (15).jpg",
+            "/images/design_GDN/06/pic (16).jpg",
+            "/images/design_GDN/06/pic (17).jpg",
+            "/images/design_GDN/06/pic (18).jpg",
+            "/images/design_GDN/06/pic (19).jpg",
+            "/images/design_GDN/06/pic (20).jpg",
+            "/images/design_GDN/06/pic (21).jpg",
+            "/images/design_GDN/06/pic (22).jpg",
+            "/images/design_GDN/06/pic.jpg"
+            ]
+        },
+        {
+          "id": 7,
+          "title": "昶安",
+          "main_pic": "/images/design_GDN/07/pic (1).jpg",
+          "pic_list": [
+            "/images/design_GDN/07/pic (1).jpg",
+            "/images/design_GDN/07/pic (2).jpg",
+            "/images/design_GDN/07/pic (3).jpg",
+            "/images/design_GDN/07/pic (4).jpg",
+            "/images/design_GDN/07/pic (5).jpg",
+            "/images/design_GDN/07/pic (6).jpg",
+            "/images/design_GDN/07/pic (7).jpg",
+            "/images/design_GDN/07/pic (8).jpg",
+            "/images/design_GDN/07/pic (9).jpg",
+            "/images/design_GDN/07/pic (10).jpg",
+            "/images/design_GDN/07/pic (11).jpg",
+            "/images/design_GDN/07/pic (12).jpg",
+            "/images/design_GDN/07/pic (13).jpg",
+            "/images/design_GDN/07/pic (14).jpg",
+            "/images/design_GDN/07/pic (15).jpg",
+            "/images/design_GDN/07/pic (16).jpg",
+            "/images/design_GDN/07/pic (17).jpg",
+            "/images/design_GDN/07/pic (18).jpg",
+            "/images/design_GDN/07/pic.jpg"
+            ]
+        }
       ]
     }
   },
   "more": {
-    "list": [
+    "type": "text_list",
+    "descript": "",
+    "work": [
       {
         "id": 0,
         "title": "KM",
+        "descript":"個人知識庫，蒐集常用的線上工具、靈感來源等網站",
         "url": "https://121amylin.github.io/KM/"
       },
       {
         "id": 1,
         "title": "JS30WithVue",
+        "descript":"嘗試將JS30用Vue改寫",
         "url": "https://github.com/121amylin/JS30WithVue"
       },
       {
         "id": 2,
         "title": "one_Page_Tools_With_Vue",
+        "descript":"參考W3C中javaScript範例，將其改寫成Vue版練習",
         "url": "https://github.com/121amylin/one_Page_Tools_With_Vue"
       },
       {
         "id": 3,
         "title": "webpack_setting",
+        "descript":"webpack工具測試與建立常用的專案模板",
         "url": "https://github.com/121amylin/webpack_setting"
       },
       {
         "id": 4,
         "title": "HTML-CSS-Forms",
+        "descript":"熟悉和Forms相關的HTML屬性與CSS設定",
         "url": "https://github.com/121amylin/HTML-CSS-Forms"
       }
     ]

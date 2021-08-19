@@ -47,7 +47,7 @@ export default new Vuex.Store({
         store.commit('GET_EDUCATION', response.data.education)
         store.commit('GET_SKILL', response.data.skill)
         store.commit('GET_FEATURED', response.data.featured)
-        store.commit('GET_WORK', response.data.work)
+        store.commit('GET_WORK', response.data.wrok_group)
         store.commit('GET_MORE', response.data.more)
       })
     }
