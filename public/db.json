@@ -170,12 +170,14 @@
   ],
   "wrok_group": {
     "old_refurbished": {
+      "name":"old_refurbished",
       "type": "",
       "descript": "",
       "work": []
     },
     "public_sector": {
-      "type": "table_arr",
+      "name":"public_sector",
+      "type": "TableArr",
       "descript": "",
       "work": [
         {
@@ -225,7 +227,8 @@
       ]
     },
     "custom_program": {
-      "type": "table_arr",
+      "name":"custom_program",
+      "type": "TableArr",
       "descript": "",
       "work": [{
           "id": 0,
@@ -257,7 +260,8 @@
       ]
     },
     "chamge_to_web": {
-      "type": "picture_list",
+      "name":"chamge_to_web",
+      "type": "PictureList",
       "descript": "",
       "work": [
         {
@@ -327,7 +331,8 @@
       ]
     },
     "one_page": {
-      "type": "picture_list",
+      "name":"one_page",
+      "type": "PictureList",
       "descript": "",
       "work": [{
           "id": 0,
@@ -404,7 +409,8 @@
       ]
     },
     "design": {
-      "type": "table_obj",
+      "name":"design",
+      "type": "TableObj",
       "descript": "",
       "work": [
         {
@@ -657,7 +663,8 @@
       ]
     },
     "template": {
-      "type": "picture_list",
+      "name":"template",
+      "type": "PictureList",
       "descript": "",
       "work": [{
           "id": 0,
@@ -782,7 +789,8 @@
       ]
     },
     "unid_design_make": {
-      "type": "picture_list",
+      "name":"unid_design_make",
+      "type": "PictureList",
       "descript": "",
       "work": [{
           "id": 0,
@@ -838,7 +846,8 @@
       ]
     },
     "Design_OEM": {
-      "type": "table_obj",
+      "name":"Design_OEM",
+      "type": "TableObj",
       "descript": "",
       "work": [{
         "id": 0,
@@ -857,6 +866,7 @@
       }]
     },
     "design_GDN": {
+      "name":"design_GDN",
       "type": "lightbox_picture_list",
       "descript": "",
       "work": [{
@@ -1053,6 +1063,7 @@
     }
   },
   "more": {
+    "name":"more",
     "type": "text_list",
     "descript": "",
     "work": [
