@@ -8,7 +8,8 @@
       "mail": "122amylin@gmail.com"
     }
   },
-  "experience": [{
+  "experience": [
+    {
       "id": 0,
       "year": "2021",
       "unit": "久大行銷",
@@ -50,7 +51,8 @@
       ]
     }
   ],
-  "education": [{
+  "education": [
+    {
       "id": 0,
       "year": "2012",
       "school": "亞東技術學院",
@@ -67,10 +69,12 @@
       "state": "畢業"
     }
   ],
-  "skill": [{
+  "skill": [
+    {
       "id": 0,
       "class": "網站開發技能",
-      "item": [{
+      "item": [
+        {
           "id": 0,
           "class": "HTML5",
           "descript": [
@@ -109,7 +113,8 @@
       "descript": ["版控", "webpack", "http傳輸知識"]
     }
   ],
-  "featured": [{
+  "featured": [
+    {
       "id": 0,
       "link": "https://idbpark.moeaidb.gov.tw/",
       "title": "經濟部能源局工業用地網",
@@ -170,13 +175,13 @@
   ],
   "wrok_group": {
     "old_refurbished": {
-      "name":"old_refurbished",
+      "name": "old_refurbished",
       "type": "",
       "descript": "",
       "work": []
     },
     "public_sector": {
-      "name":"public_sector",
+      "name": "public_sector",
       "type": "TableArr",
       "descript": "",
       "work": [
@@ -227,10 +232,11 @@
       ]
     },
     "custom_program": {
-      "name":"custom_program",
+      "name": "custom_program",
       "type": "TableArr",
       "descript": "",
-      "work": [{
+      "work": [
+        {
           "id": 0,
           "link": "http://www.homi.com.tw/",
           "title": "禾米特用材料股份有限公司",
@@ -260,7 +266,7 @@
       ]
     },
     "chamge_to_web": {
-      "name":"chamge_to_web",
+      "name": "chamge_to_web",
       "type": "PictureList",
       "descript": "",
       "work": [
@@ -331,10 +337,11 @@
       ]
     },
     "one_page": {
-      "name":"one_page",
+      "name": "one_page",
       "type": "PictureList",
       "descript": "",
-      "work": [{
+      "work": [
+        {
           "id": 0,
           "link": "https://www.ushio-taiwan.com/event/index.html",
           "title": "優志旺",
@@ -344,7 +351,7 @@
         },
         {
           "id": 1,
-          "link": "http://customer.urb2b.com/~amylin0204/Zhaowei_20200922/",
+          "link": "https://121amylin.github.io/2021work/Zhaowei_20200922/",
           "title": "兆威",
           "pic": "/images/web/one_page/one_page_1.jpg",
           "list": [],
@@ -376,7 +383,7 @@
         },
         {
           "id": 5,
-          "link": "http://customer.urb2b.com/~amylin0204/hermesClues-onePage-ISPO2020_V1R2/index.html",
+          "link": "https://121amylin.github.io/2021work/hermesClues-onePage-ISPO2020_V1R2/index.html",
           "title": "合曼",
           "pic": "/images/web/one_page/one_page_5.jpg",
           "list": [],
@@ -409,37 +416,38 @@
       ]
     },
     "design": {
-      "name":"design",
+      "name": "design",
       "type": "TableObj",
       "descript": "",
       "work": [
         {
           "id": 0,
           "title": "光陽",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/index.html"
+              "url": "https://121amylin.github.io/2021work/guangyang-ky_dome_20210525/index.html"
             },
             {
               "id": 1,
               "title": " 產品總攬頁",
-              "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/Alllist.html"
+              "url": "https://121amylin.github.io/2021work/guangyang-ky_dome_20210525/Alllist.html"
             },
             {
               "id": 2,
               "title": " 產品列表",
-              "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/list.html"
+              "url": "https://121amylin.github.io/2021work/guangyang-ky_dome_20210525/list.html"
             },
             {
               "id": 3,
               "title": " 產品詳細",
-              "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/show.html"
+              "url": "https://121amylin.github.io/2021work/guangyang-ky_dome_20210525/show.html"
             },
             {
               "id": 4,
               "title": " 下拉選單",
-              "url": "http://customer.urb2b.com/~amylin0204/guangyang-ky_dome_20210525/show_secmenu.html"
+              "url": "https://121amylin.github.io/2021work/guangyang-ky_dome_20210525/show_secmenu.html"
             }
           ],
           "pic": "/images/web/design/design_0.jpg",
@@ -448,30 +456,31 @@
         {
           "id": 1,
           "title": "瀧澤",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/index.html"
+              "url": "https://121amylin.github.io/2021work/takisawa_demo_20210817/index.html"
             },
             {
               "id": 1,
               "title": "產品總攬頁",
-              "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/Alllist.html"
+              "url": "https://121amylin.github.io/2021work/takisawa_demo_20210817/Alllist.html"
             },
             {
               "id": 2,
               "title": "產品列表",
-              "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/list.html"
+              "url": "https://121amylin.github.io/2021work/takisawa_demo_20210817/list.html"
             },
             {
               "id": 3,
               "title": "產品詳細",
-              "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/show.html"
+              "url": "https://121amylin.github.io/2021work/takisawa_demo_20210817/show.html"
             },
             {
               "id": 4,
               "title": "下拉選單",
-              "url": "http://customer.urb2b.com/~amylin0204/takisawa_demo_20210722/show_secmenu.html"
+              "url": "https://121amylin.github.io/2021work/takisawa_demo_20210817/show_secmenu.html"
             }
           ],
           "pic": "/images/web/design/design_1.jpg",
@@ -480,30 +489,31 @@
         {
           "id": 2,
           "title": "美其",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/index.html"
+              "url": "https://121amylin.github.io/2021work/majestic-webbing_demo_20210106/index.html"
             },
             {
               "id": 1,
               "title": "產品總攬頁",
-              "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210220/Alllist.html"
+              "url": "https://121amylin.github.io/2021work/majestic-webbing_demo_20210220/Alllist.html"
             },
             {
               "id": 2,
               "title": "產品列表",
-              "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/list.html"
+              "url": "https://121amylin.github.io/2021work/majestic-webbing_demo_20210106/list.html"
             },
             {
               "id": 3,
               "title": "產品詳細",
-              "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/show.html"
+              "url": "https://121amylin.github.io/2021work/majestic-webbing_demo_20210106/show.html"
             },
             {
               "id": 4,
               "title": "下拉選單",
-              "url": "http://customer.urb2b.com/~amylin0204/majestic-webbing_demo_20210106/show_secmenu.html"
+              "url": "https://121amylin.github.io/2021work/majestic-webbing_demo_20210106/show_secmenu.html"
             }
           ],
           "pic": "/images/web/design/design_2.jpg",
@@ -512,30 +522,31 @@
         {
           "id": 3,
           "title": "易周",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/index.html"
+              "url": "https://121amylin.github.io/2021work/enjoycaster_demo_20210427/index.html"
             },
             {
               "id": 1,
               "title": " 產品總攬頁",
-              "url": "0220：http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/Alllist.html"
+              "url": "https://121amylin.github.io/2021work/enjoycaster_demo_20210427/Alllist.html"
             },
             {
               "id": 2,
               "title": " 產品列表",
-              "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/list.html"
+              "url": "https://121amylin.github.io/2021work/enjoycaster_demo_20210427/list.html"
             },
             {
               "id": 3,
               "title": " 產品詳細",
-              "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/show.html"
+              "url": "https://121amylin.github.io/2021work/enjoycaster_demo_20210427/show.html"
             },
             {
               "id": 4,
               "title": " 下拉選單",
-              "url": "http://customer.urb2b.com/~amylin0204/enjoycaster_demo_20210317/show_secmenu.html"
+              "url": "https://121amylin.github.io/2021work/enjoycaster_demo_20210427/show_secmenu.html"
             }
           ],
           "pic": "/images/web/design/design_3.jpg",
@@ -544,20 +555,21 @@
         {
           "id": 4,
           "title": "宏國",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/hkdc-0612/index.html"
+              "url": "https://121amylin.github.io/2021work/hkdc-0612/index.html"
             },
             {
               "id": 1,
               "title": " 列表頁",
-              "url": "http://customer.urb2b.com/~amylin0204/hkdc-0612/list.html"
+              "url": "https://121amylin.github.io/2021work/hkdc-0612/list.html"
             },
             {
               "id": 2,
               "title": " 詳細頁",
-              "url": "http://customer.urb2b.com/~amylin0204/hkdc-0612/more.html"
+              "url": "https://121amylin.github.io/2021work/hkdc-0612/more.html"
             }
           ],
           "pic": "/images/web/design/design_4.jpg",
@@ -566,46 +578,49 @@
         {
           "id": 5,
           "title": "大來",
-          "link": [{
-            "id": 0,
-            "title": "正式站",
-            "url": "https://www.pnm-hvacr.com/"
-          }],
+          "link": [
+            {
+              "id": 0,
+              "title": "正式站",
+              "url": "https://www.pnm-hvacr.com/"
+            }
+          ],
           "pic": "/images/web/design/design_5.jpg",
           "descript": ""
         },
         {
           "id": 6,
           "title": "新益",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "A版_總覽頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerA_list.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerA_list.html"
             },
             {
               "id": 1,
               "title": " A版_列表頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerA_list2.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerA_list2.html"
             },
             {
               "id": 2,
               "title": " A版_詳細頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerA_more.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerA_more.html"
             },
             {
               "id": 3,
               "title": " A版_手機板總覽頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerA_list-sm.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerA_list-sm.html"
             },
             {
               "id": 4,
               "title": " Ｂ版_總覽頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerB_list.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerB_list.html"
             },
             {
               "id": 5,
               "title": " Ｂ版_詳細頁",
-              "url": "http://customer.urb2b.com/~amylin0204/shinican_Layout20191125/InnerPageVerB_more.html"
+              "url": "https://121amylin.github.io/2021work/shinican_Layout20191125/InnerPageVerB_more.html"
             }
           ],
           "pic": "/images/web/design/design_6.jpg",
@@ -614,7 +629,8 @@
         {
           "id": 7,
           "title": "宏于電機",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "官網",
               "url": "https://www.horngyu.com/webls-zh-tw/index.html"
@@ -622,12 +638,12 @@
             {
               "id": 1,
               "title": "規格篩選列表＿收合樣式",
-              "url": "http://customer.urb2b.com/~amylin0204/horngyucom_demo_0827/index.html"
+              "url": "https://121amylin.github.io/2021work/horngyucom_demo_0827/index.html"
             },
             {
               "id": 2,
               "title": "規格篩選列表＿展開樣式",
-              "url": "http://customer.urb2b.com/~amylin0204/horngyucom_demo_0827/index2.html"
+              "url": "https://121amylin.github.io/2021work/horngyucom_demo_0827/index2.html"
             }
           ],
           "pic": "/images/web/design/design_7.jpg",
@@ -636,20 +652,21 @@
         {
           "id": 8,
           "title": "金鼎",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "首頁",
-              "url": "http://customer.urb2b.com/~amylin0204/new-ctprotek-20200327/public_html/index.html"
+              "url": "https://121amylin.github.io/2021work/new-ctprotek-20200327/index.html"
             },
             {
               "id": 1,
               "title": "產品列表頁",
-              "url": "http://customer.urb2b.com/~amylin0204/new-ctprotek/public_html/zh/productUnit4.html"
+              "url": "https://121amylin.github.io/2021work/new-ctprotek-20200327/zh/productUnit4.html"
             },
             {
               "id": 2,
               "title": "產品詳細頁",
-              "url": "http://customer.urb2b.com/~amylin0204/new-ctprotek/public_html/zh/pro12.html"
+              "url": "https://121amylin.github.io/2021work/new-ctprotek-20200327/zh/pro12.html"
             },
             {
               "id": 3,
@@ -663,10 +680,11 @@
       ]
     },
     "template": {
-      "name":"template",
+      "name": "template",
       "type": "PictureList",
       "descript": "",
-      "work": [{
+      "work": [
+        {
           "id": 0,
           "link": "https://www.atmax-tech.com/",
           "title": "渼科斯",
@@ -789,13 +807,15 @@
       ]
     },
     "unid_design_make": {
-      "name":"unid_design_make",
+      "name": "unid_design_make",
       "type": "PictureList",
       "descript": "",
-      "work": [{
+      "work": [
+        {
           "id": 0,
           "title": "金展__History",
-          "link": [{
+          "link": [
+            {
               "id": 0,
               "title": "提版",
               "link": "http://customer.urb2b.com/~tzufen.chen/keen-pro/history.html",
@@ -818,63 +838,73 @@
         {
           "id": 1,
           "title": "嘉明__整廠規劃",
-          "link": [{
-            "id": 2,
-            "title": "上線",
-            "link": "http://cm-pet.www52.icm99.com/msg/turnkey-solution.html",
-            "pic": "",
-            "list": [],
-            "descript": ""
-          }],
+          "link": [
+            {
+              "id": 2,
+              "title": "上線",
+              "link": "http://cm-pet.www52.icm99.com/msg/turnkey-solution.html",
+              "pic": "",
+              "list": [],
+              "descript": ""
+            }
+          ],
           "pic": "/images/web/unid_design_make/unid_design_make_1.jpg",
           "descript": ""
         },
         {
           "id": 2,
           "title": "金展__Video",
-          "link": [{
-            "id": 0,
-            "title": "上線",
-            "link": "http://keen-pro.demoicm.urb2b.com/msg/message-Video-40.html",
-            "pic": "",
-            "list": [],
-            "descript": ""
-          }],
+          "link": [
+            {
+              "id": 0,
+              "title": "上線",
+              "link": "http://keen-pro.demoicm.urb2b.com/msg/message-Video-40.html",
+              "pic": "",
+              "list": [],
+              "descript": ""
+            }
+          ],
           "pic": "/images/web/unid_design_make/unid_design_make_2.jpg",
           "descript": ""
         }
       ]
     },
     "Design_OEM": {
-      "name":"Design_OEM",
+      "name": "Design_OEM",
       "type": "TableObj",
       "descript": "",
-      "work": [{
-        "id": 0,
-        "title": "亮宇農曆新年賀卡",
-        "link": [{
+      "work": [
+        {
           "id": 0,
-          "title": "中文版",
-          "url": "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_ch"
-        }, {
-          "id": 1,
-          "title": "英文版",
-          "url": "http://customer.urb2b.com/~amylin0204/lianyuseal-NewYearCard_en"
-        }],
-        "pic": "/images/web/Design_OEM/Design_OEM_0.jpg",
-        "descript": ""
-      }]
+          "title": "亮宇農曆新年賀卡",
+          "link": [
+            {
+              "id": 0,
+              "title": "中文版",
+              "url": "https://121amylin.github.io/2021work/lianyuseal-NewYearCard_ch"
+            },
+            {
+              "id": 1,
+              "title": "英文版",
+              "url": "https://121amylin.github.io/2021work/lianyuseal-NewYearCard_en"
+            }
+          ],
+          "pic": "/images/web/Design_OEM/Design_OEM_0.jpg",
+          "descript": ""
+        }
+      ]
     },
     "design_GDN": {
-      "name":"design_GDN",
-      "type": "lightbox_picture_list",
+      "name": "design_GDN",
+      "type": "Lightbox",
       "descript": "",
-      "work": [{
+      "work": [
+        {
           "id": 0,
           "title": "丞威",
           "main_pic": "/images/design_GDN/00/pic (1).jpg",
-          "pic_list": 
-           ["/images/design_GDN/00/pic (1).jpg",
+          "pic_list": [
+            "/images/design_GDN/00/pic (1).jpg",
             "/images/design_GDN/00/pic (2).jpg",
             "/images/design_GDN/00/pic (3).jpg",
             "/images/design_GDN/00/pic (4).jpg",
@@ -901,17 +931,18 @@
         {
           "id": 1,
           "title": "和昕",
-          "main_pic": "",
+          "main_pic": "/images/design_GDN/01/banner0.jpg",
           "pic_list": [
             "/images/design_GDN/01/banner1.jpg",
             "/images/design_GDN/01/banner2.jpg",
-            "/images/design_GDN/01/banner3.jpg"]
+            "/images/design_GDN/01/banner3.jpg"
+          ]
         },
         {
           "id": 2,
           "title": "憶利得",
           "main_pic": "/images/design_GDN/02/pic (1).jpg",
-          "pic_list": [      
+          "pic_list": [
             "/images/design_GDN/02/pic (1).jpg",
             "/images/design_GDN/02/pic (2).jpg",
             "/images/design_GDN/02/pic (3).jpg",
@@ -1000,8 +1031,11 @@
         {
           "id": 5,
           "title": "歐群",
-          "main_pic": "/images/design_GDN/05/120x90.jpg",
-          "pic_list": ["/images/design_GDN/05/120x90.jpg","/images/design_GDN/05/236x60.jpg"]
+          "main_pic": "/images/design_GDN/05/01.jpg",
+          "pic_list": [
+            "/images/design_GDN/05/120x90.jpg",
+            "/images/design_GDN/05/236x60.jpg"
+          ]
         },
         {
           "id": 6,
@@ -1031,7 +1065,7 @@
             "/images/design_GDN/06/pic (21).jpg",
             "/images/design_GDN/06/pic (22).jpg",
             "/images/design_GDN/06/pic.jpg"
-            ]
+          ]
         },
         {
           "id": 7,
@@ -1057,13 +1091,13 @@
             "/images/design_GDN/07/pic (17).jpg",
             "/images/design_GDN/07/pic (18).jpg",
             "/images/design_GDN/07/pic.jpg"
-            ]
+          ]
         }
       ]
     }
   },
   "more": {
-    "name":"more",
+    "name": "more",
     "type": "text_list",
     "descript": "",
     "work": [

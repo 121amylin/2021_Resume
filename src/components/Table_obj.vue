@@ -17,8 +17,6 @@
               <th class="num">{{ index + 1 }}</th>
               <td class="pic">
                 <img :src="require(`../assets${item.pic}`)" alt="" />
-
-                <!-- <img :src="item.pic" alt="" /> -->
               </td>
               <td class="project_name">
                 <h3 class="title">

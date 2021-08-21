@@ -28,6 +28,9 @@ json-server --watch public/db.json
 
 - [[純 css 動畫] 波浪](https://penueling.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E7%B4%94css%E5%8B%95%E7%95%AB-%E6%B3%A2%E6%B5%AA/)
 
+### 【QA】
+- [Vue 中 this.$ref 獲取不到 DOM 對象的問題解決](https://www.jianshu.com/p/b14ea3a92e53)
+
 ### 【開發環境】
 
 - [Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)

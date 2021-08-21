@@ -2,6 +2,7 @@ $light_main_color: #6dddff;
 $main_color: #007ced;
 $dark_main_color: #0442b6;
 $gray_color: #666;
+$light_gray_color: #ccc;
 $main_color_10: rgba(0, 124, 237, 0.1);
 @mixin rwd($size) {
   @media (max-width: $size) {

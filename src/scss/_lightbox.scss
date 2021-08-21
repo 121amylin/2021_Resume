@@ -1,0 +1,82 @@
+.link_list {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    width: calc(20% - 20px);
+    margin: 10px;
+    .pic {
+      margin-bottom: 6px;
+      border: 1px solid $light_gray_color;
+    }
+    .text {
+      text-align: center;
+    }
+  }
+}
+
+.light_box {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-height: 100vh;
+  background-color: #333;
+  padding: 40px;
+  .show_picture {
+    position: relative;
+    height: 76vh;
+    img {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      width: auto;
+      max-height: 70vh;
+      max-width: 100%;
+    }
+  }
+  .thumbnail_box {
+    width: 100%;
+    max-height: 20%;
+    display: flex;
+    align-items: center;
+    .thumbnail_list_box {
+      width: 100%;
+      overflow: hidden;
+    }
+    .thumbnail_list {
+      display: flex;
+      max-height: 80px;
+      align-items: stretch;
+      li.item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: calc(10% - 8px);
+        margin: 4px;
+        border: 1px solid $gray_color;
+        overflow: hidden;
+        background-color: #fff;
+      }
+      img {
+        width: auto;
+        max-width: 100%;
+        max-height: 80px;
+      }
+    }
+  }
+
+  .light_box_btn {
+    width: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  // .close_btn {
+  // }
+  // .prev_btn {
+  // }
+  // .next_btn {
+  // }
+}

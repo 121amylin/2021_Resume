@@ -25,10 +25,11 @@
 import PictureList from '@/components/Picture_list.vue'
 import TableArr from '@/components/Table_arr.vue'
 import TableObj from '@/components/Table_obj.vue'
+import Lightbox from '@/components/Lightbox.vue'
 
 export default {
   name: 'Work',
-  components: { PictureList, TableArr, TableObj },
+  components: { PictureList, TableArr, TableObj, Lightbox },
   data () {
     return {
       isloadend: false,
@@ -44,7 +45,6 @@ export default {
   },
   methods: {
     changeClassHandle (item) {
-      console.log(item)
       this.type = item.type
       this.show_data = item.class_data
     },
