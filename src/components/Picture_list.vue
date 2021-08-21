@@ -1,34 +1,28 @@
 <template>
-  <div class="section container">
-    <ul class="picture_list">
-      <li v-for="item in get_work" :key="item.id">
-        <a :href="item.link" target="_blank">
-          <div class="pic">
-            <img :src="require(`../assets${item.pic}`)" alt="" />
-          </div>
-          <div class="content">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.descript }}</p>
-          </div>
-          <div class="link_icon_box"><i class="link_icon"></i></div>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <ul class="picture_list">
+    <li v-for="item in pdate" :key="item.id">
+      <a :href="item.link" target="_blank">
+        <div class="pic">
+          <img :src="require(`../assets${item.pic}`)" alt="" />
+        </div>
+        <div class="content">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.descript }}</p>
+        </div>
+        <div class="link_icon_box"><i class="link_icon"></i></div>
+      </a>
+    </li>
+  </ul>
 </template>
 
 <script>
 export default {
   name: 'Picture_list',
-  computed: {
-    get_work () {
-      return this.$store.state.work.chamge_to_web.work
-    }
-  }
+  props: ['pdate']
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../scss/common';
 @import '../scss/icon';
 
@@ -64,7 +58,7 @@ export default {
   }
   .content {
     margin-bottom: 30px;
-    padding:0 20px;
+    padding: 0 20px;
     color: $gray_color;
     h3 {
       font-size: 18px;

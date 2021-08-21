@@ -14,7 +14,8 @@ export default new Vuex.Store({
     skill: '',
     featured: '',
     work: '',
-    more: ''
+    more: '',
+    init_work: ''
   },
   mutations: {
     GET_INTO (state, data) {
@@ -37,6 +38,9 @@ export default new Vuex.Store({
     },
     GET_MORE (state, data) {
       state.more = data
+    },
+    GET_INIT_WORK (state, data) {
+      state.init_work = data
     }
   },
   actions: {
@@ -49,6 +53,7 @@ export default new Vuex.Store({
         store.commit('GET_FEATURED', response.data.featured)
         store.commit('GET_WORK', response.data.wrok_group)
         store.commit('GET_MORE', response.data.more)
+        store.commit('GET_INIT_WORK', response.data.wrok_group.chamge_to_web)
       })
     }
   },

@@ -21,7 +21,7 @@ export default {
   name: 'Header'
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 $main_color: #007ced;
 $gray_color: #666;
 .header {

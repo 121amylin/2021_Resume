@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .pic_list {
   .tit {
     font-size: 1.6rem;

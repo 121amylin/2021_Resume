@@ -1,21 +1,19 @@
 <template>
   <div class="lightbox_page">
-    <div class="section container">
-      <ul class="link_list">
-        <li
-          v-for="item in get_work"
-          @click="openLightBoxHandle(item.pic_list)"
-          :key="item.id"
-        >
-          <div class="pic">
-            <img :src="require(`../assets${item.main_pic}`)" alt="" />
-          </div>
-          <div class="text">
-            <h3 class="tit">{{ item.title }}</h3>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <ul class="link_list">
+      <li
+        v-for="item in pdate"
+        @click="openLightBoxHandle(item.pic_list)"
+        :key="item.id"
+      >
+        <div class="pic">
+          <img :src="require(`../assets${item.main_pic}`)" alt="" />
+        </div>
+        <div class="text">
+          <h3 class="tit">{{ item.title }}</h3>
+        </div>
+      </li>
+    </ul>
 
     <div class="light_box" v-if="isShowLightBox">
       <a href="#" @click="closeLightBox" class="light_box_btn close_btn"
@@ -56,6 +54,7 @@
 <script>
 export default {
   name: 'Lightbox',
+  props: ['pdate'],
   data () {
     return {
       isShowLightBox: false,
@@ -65,9 +64,6 @@ export default {
     }
   },
   computed: {
-    get_work () {
-      return this.$store.state.work.design_GDN.work
-    },
     get_lightBoxData () {
       return this.lightBoxData
     }
@@ -114,7 +110,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../scss/common';
 @import '../scss/icon';
 @import '../scss/lightbox';

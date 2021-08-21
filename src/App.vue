@@ -21,7 +21,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @import '/scss/common';
 @import '/scss/bg_gam';
 

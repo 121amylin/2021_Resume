@@ -46,7 +46,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .time_line {
   position: relative;
   padding: 40px 0;

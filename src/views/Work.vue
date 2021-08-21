@@ -1,6 +1,6 @@
 <template>
-  <div class="home" v-if="isloadend">
-    <div class="section container">
+  <div class="home">
+    <div v-if="isloadend" class="section container">
       <div class="downmenu" :class="{ active: isShow_menu }">
         <div @click="togglemenuHandle">
           <p>請選擇作品類型</p>
@@ -16,7 +16,8 @@
           </ul>
         </div>
       </div>
-      <compoment :is="type" :pdate="show_data"> </compoment>
+      <compoment v-if="type" :is="type" :pdate="show_data"> </compoment>
+      <compoment v-else :is="get_init.type" :pdate="get_init.work"> </compoment>
     </div>
   </div>
 </template>
@@ -35,18 +36,21 @@ export default {
       isloadend: false,
       isShow_menu: false,
       type: '',
-      show_data: {}
+      show_data: []
     }
   },
   computed: {
     get_data () {
       return this.$store.state.work
+    },
+    get_init () {
+      return this.$store.state.init_work
     }
   },
   methods: {
     changeClassHandle (item) {
       this.type = item.type
-      this.show_data = item.class_data
+      this.show_data = item.work
     },
     togglemenuHandle () {
       this.isShow_menu = !this.isShow_menu
@@ -60,7 +64,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../scss/common';
 .downmenu {
   position: relative;
@@ -75,6 +79,7 @@ export default {
     margin: 0;
     list-style: none;
     min-width: 200px;
+    z-index: 1;
     li {
       display: block;
       cursor: pointer;

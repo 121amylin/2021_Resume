@@ -8,7 +8,7 @@
 import TextList from '@/components/Text_list.vue'
 
 export default {
-  name: 'Work',
+  name: 'More',
   components: { TextList },
   data () {
     return {
@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 // @import '../scss/common';
 //
 </style>
