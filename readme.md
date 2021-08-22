@@ -39,6 +39,8 @@ json-server --watch public/db.json
 
 - [Vue 引入外部 js 文件報 Uncaught SyntaxError: Unexpected token<](https://blog.csdn.net/qq_41241767/article/details/102459159)
 
+- [vue本地打包build之後dist文件下的index.html不顯示內容報錯Failed to load resource](https://segmentfault.com/a/1190000020419186)
+
 ### 【模版處理】
 
 [[Webpack][vue.js] 動態編譯 assets 嘗試
