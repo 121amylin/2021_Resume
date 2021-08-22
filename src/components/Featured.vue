@@ -35,10 +35,15 @@ export default {
   justify-content: center;
   margin: 0 -15px;
 
-  li {
+  .item {
     width: 33.3%;
     padding: 15px;
     text-align: center;
+    transition: opacity 0.3s;
+    &:hover {
+      opacity: 0.6;
+    }
+
     @include rwd(768px) {
       width: 50%;
     }

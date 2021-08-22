@@ -104,6 +104,11 @@
       @include rwd(680px) {
         padding: 2px;
       }
+      span{
+        display: inline-block;
+        padding-left: 12px;
+        color: #aaa;
+      }
     }
   }
 }

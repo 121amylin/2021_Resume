@@ -34,6 +34,10 @@ export default {
     width: calc(33.3% - 30px);
     margin: 15px;
     border: 1px solid $light_gray_color;
+    transition: opacity 0.3s;
+    &:hover{
+      opacity: 0.6;
+    }
     @include rwd(991px) {
       width: calc(50% - 20px);
       margin: 10px;
