@@ -101,16 +101,34 @@
 
     {
       "id": 1,
-      "class": "UI/UX設計技能",
-      "descript": [
-        "繪製使用者介面圖像、illustrator 向量圖形",
-        "使用Photoshop 繪製素材、網站主視覺圖"
+      "class": "設計領域技能",
+      "item": [
+        {
+          "id": 0,
+          "class": "UI/UX設計技能",
+          "descript": [
+            "使用者介面設計",
+            "illustrator 向量圖形",
+            "使用Photoshop 繪製素材",
+            "網站主視覺圖"
+          ]
+        }
       ]
     },
     {
       "id": 2,
-      "class": "網站開發環境知識",
-      "descript": ["版控", "webpack", "http傳輸知識"]
+      "class": "其他",
+        "item": [
+        {
+          "id": 0,
+          "class": "開發環境知識",
+          "descript": [
+            "版控",
+            "webpack",
+            "http傳輸知識"
+          ]
+        }
+      ]
     }
   ],
   "featured": [
@@ -174,12 +192,6 @@
     }
   ],
   "wrok_group": {
-    "old_refurbished": {
-      "name": "old_refurbished",
-      "type": "",
-      "descript": "",
-      "work": []
-    },
     "public_sector": {
       "name": "public_sector",
       "type": "TableArr",

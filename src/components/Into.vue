@@ -30,11 +30,17 @@ export default {
   align-items: center;
   width: 70%;
   margin: 40px auto;
+  @include rwd(1280px) {
+    width: 100%;
+  }
+  @include rwd(768px) {
+    flex-direction: column;
+  }
+
   .tit {
     padding-bottom: 12px;
     margin-bottom: 8px;
     border-bottom: 1px solid;
-    font-size: 2.4rem;
     font-weight: 700;
     span {
       color: #ccc;
@@ -42,11 +48,21 @@ export default {
   }
   .text {
     width: 64%;
+    @include rwd(768px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
   }
   .pic {
     width: 36%;
     padding-left: 36px;
     padding-right: 4px;
+    @include rwd(768px) {
+      width: auto;
+      max-width:180px;
+      padding-left: 0;
+    }
+
     img {
       width: 100%;
       border: 6px solid #fff;

@@ -37,6 +37,8 @@ json-server --watch public/db.json
 - [VSCode Prettier 整合 ESLint 自動排版](https://wcc723.github.io/development/2021/04/11/vscode-eslint-prettier/)
 - [關於 vue/cli4.x vue-cli@4.x 版本瀏覽器兼容問題處理，兼容 ie](https://blog.csdn.net/csl125/article/details/110038701)
 
+- [Vue 引入外部 js 文件報 Uncaught SyntaxError: Unexpected token<](https://blog.csdn.net/qq_41241767/article/details/102459159)
+
 ### 【模版處理】
 
 [[Webpack][vue.js] 動態編譯 assets 嘗試

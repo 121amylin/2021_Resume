@@ -22,22 +22,32 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-$main_color: #007ced;
-$gray_color: #666;
+@import '../scss/common';
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include rwd(768px) {
+    flex-direction: column;
+  }
 }
 #nav {
-  padding: 30px;
+  padding: 30px 0;
+  @include rwd(768px) {
+    width: 100%;
+    padding: 0;
+    border-top: 1px dashed $light_gray_color;
+    text-align: center;
+  }
 
   a {
     padding: 12px 16px;
     font-weight: bold;
-    font-size: 1.6rem;
     color: $gray_color;
-
+    @include rwd(400px) {
+      padding: 10px 6px;
+    }
     &.router-link-exact-active {
       color: $main_color;
     }

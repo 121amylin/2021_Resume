@@ -1,9 +1,21 @@
 .link_list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -10px;
   li {
     width: calc(20% - 20px);
     margin: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    &:hover{
+      opacity: 0.6;
+    }
+    @include rwd(991px) {
+      width: calc(33.3% - 20px);
+    }
+    @include rwd(480px) {
+      width: calc(50% - 20px);
+    }
     .pic {
       margin-bottom: 6px;
       border: 1px solid $light_gray_color;
@@ -59,6 +71,12 @@
         border: 1px solid $gray_color;
         overflow: hidden;
         background-color: #fff;
+        @include rwd(991px) {
+          width: calc(20% - 8px);
+        }
+        @include rwd(480px) {
+          width: calc(33.3% - 8px);
+        }
       }
       img {
         width: auto;
@@ -72,11 +90,21 @@
     width: 30px;
     text-align: center;
     color: #fff;
+    transition:opacity 0.3s;
+    &:hover{
+      opacity: 0.6;
+    }
   }
   // .close_btn {
   // }
-  // .prev_btn {
-  // }
-  // .next_btn {
-  // }
+  .prev_btn {
+    i {
+      margin-right: 8px;
+    }
+  }
+  .next_btn {
+    i {
+      margin-left: 8px;
+    }
+  }
 }

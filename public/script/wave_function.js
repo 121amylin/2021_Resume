@@ -1,18 +1,24 @@
-var DOM = document.getElementById('waveCanvas')
-var canvasList
-var info = {}
-var colorList
-var updateRate = 0.014 // canvas更新頻率
-var wavecolorArr = ['#43c0e4', '#999'] // canvas填塞(即波浪的顏色)
-var initialHeight = 60 // canvas高度初始值
+// wave parameter settings
+var DOM = document.getElementById('waveCanvas') // 獲取canvas物件
+var DOM2 = document.getElementById('waveCanvas2') // 獲取canvas物件
+var DOM3 = document.getElementById('waveCanvas3') // 獲取canvas物件
+var DOM4 = document.getElementById('waveCanvas4') // 獲取canvas物件
 
-var unit = 20 // 波浪起伏幅度(振幅)
+var canvasList // 畫布陣列
+var info = {} // 所有畫布通用的繪圖信息
+var colorList // 每個畫布的顏色信息
+var updateRate = 0.014 // canvas更新頻率
+var wavecolorArr = ['#e5f2fd', '#cce5fb'] // canvas填塞(即波浪的顏色)
+var initialHeight = 30 // canvas高度初始值
+var waveLength = 6 // 波浪長度倍數
+var unit = 14 // 波浪起伏幅度(振幅)
 var waveSurge = 1 // 波浪起伏幅度倍數
-var waveSpeed = 35 // 波動速度
+var waveSpeed = 80 // 波動速度
 var drawWaveArray = [
   [0.5, 20, 0],
   [0.5, 10, 0] // [不透明度,浪高,延遲位移]
 ]
+var timer = null
 
 // Init function 初始化函數
 // Initialize variables and begin the animation. 初始化變量並開始動畫
@@ -24,11 +30,19 @@ function init (wavecolorArr) {
   // 畫布第一種顏色規格
   canvasList.push(DOM)
   colorList.push(wavecolorArr)
+  canvasList.push(DOM2)
+  colorList.push(wavecolorArr)
+
+  canvasList.push(DOM3)
+  colorList.push(wavecolorArr)
+  canvasList.push(DOM4)
+  colorList.push(wavecolorArr)
 
   // 每個畫布的初始化
   for (var canvasIndex in canvasList) {
     var canvas = canvasList[canvasIndex]
-    canvas.width = document.documentElement.clientWidth // 將畫布寬度與窗口寬度匹配
+    // canvas.width = document.documentElement.clientWidth // 將畫布寬度與窗口寬度匹配
+    canvas.width = document.querySelector('.home').clientWidth
     canvas.height = initialHeight // 初始化canvas高度
     canvas.contextCache = canvas.getContext('2d')
   }
@@ -46,7 +60,7 @@ function update () {
   info.seconds = info.seconds + updateRate
   info.t = info.seconds * Math.PI
   // 遞歸
-  setTimeout(update, waveSpeed)
+  timer = setTimeout(update, waveSpeed)
 }
 
 // Draw animation function. 繪製動畫函數。
@@ -58,10 +72,7 @@ function draw (canvas, color) {
   context.clearRect(0, 0, canvas.width, canvas.height)
 
   // 畫波浪 drawWave(canvas, color[數字（指定從 0 開始計數的波數）], 不透明度、波寬縮放、波起始位置延遲)
-  for (const [
-    index,
-    [waveAlpha, waveLength, waveDelay]
-  ] of drawWaveArray.entries()) {
+  for ([index, [waveAlpha, waveLength, waveDelay]] of drawWaveArray.entries()) {
     drawWave(canvas, color[index], waveAlpha, waveLength, waveDelay)
   }
 }
@@ -94,7 +105,7 @@ function drawSine (canvas, t, zoom, delay) {
   context.moveTo(yAxis, unit * y + xAxis) // 將路徑放在起始位置
 
   // 循環繪製線段(計算寬度、繪製波浪)
-  for (let i = yAxis; i <= canvas.width + 10; i += 10) {
+  for (i = yAxis; i <= canvas.width + 10; i += 10) {
     x = t + (-yAxis + i) / unit / zoom
     y = Math.sin(x - delay) * waveSurge
     context.lineTo(i, unit * y + xAxis)
@@ -102,3 +113,8 @@ function drawSine (canvas, t, zoom, delay) {
 }
 
 init(wavecolorArr)
+
+window.addEventListener('resize', () => {
+  clearInterval(timer)
+  init(wavecolorArr)
+})

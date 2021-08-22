@@ -1,16 +1,57 @@
+.tit {
+  margin: 0;
+  overflow-wrap: break-word;
+}
 .text_list {
   li {
-    position: relative;
-    padding-left: 16px;
     &::before {
-      content: "";
+      display: none;
+    }
+    + li {
+      border-top: 1px dashed $gray_color;
+    }
+  }
+  a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: $gray_color;
+    &:hover {
+      h3 {
+        color: $light_main_color;
+      }
+      .link_icon_box i {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  span {
+    display: inline-block;
+    font-size: 0;
+  }
+  .num {
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .content {
+    width: calc(100% - 100px);
+    h3 {
+      color: $main_color;
+      transition: color 0.3s;
+    }
+  }
+  .link_icon_box {
+    width: 100px;
+    position: relative;
+    vertical-align: 7px;
+    i {
       position: absolute;
-      width: 8px;
-      height: 2px;
-      background-color: #999;
-      transform: translateY(-50%);
-      left: 0;
+      transform: translate(-50%, -50%) rotate(135deg);
+      left: 50%;
       top: 50%;
+      transition: transform 0.3s;
     }
   }
 }

@@ -18,17 +18,17 @@
               <img :src="require(`../assets${item.pic}`)" alt="" />
             </td>
             <td class="project_name">
-              <h3 class="title">
+              <h4 >
                 {{ item.title }}
-              </h3>
+              </h4>
             </td>
             <td class="project_descript">
-              <h3>專案說明：</h3>
+              <h4>專案說明：</h4>
               <p>{{ item.descript }}</p>
               <ul class="link_list">
                 <li v-for="link_item in item.link" :key="link_item.id">
                   <a :href="link_item.url" target="_blank"
-                    >{{ link_item.title }} <span class="gg-log-in"></span
+                    >{{ link_item.title }} <span><i class="gg-log-in"></i></span
                   ></a>
                 </li>
               </ul>

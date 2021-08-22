@@ -1,5 +1,5 @@
 <template>
-  <div class="time_line section main_color_10_bg clear">
+  <div class="time_line main_color_20_bg clear">
     <div class="container">
       <dl
         class="experience item"
@@ -47,12 +47,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../scss/common';
+
 .time_line {
   position: relative;
   padding: 40px 0;
+  @include rwd(1280px) {
+    padding: 30px 0;
+  }
+  @include rwd(768px) {
+    padding: 20px 0;
+  }
+
   .container {
     width: 84%;
     margin: 40px auto;
+    @include rwd(1280px) {
+      width: 100%;
+    }
+    @include rwd(768px) {
+      margin: 20px auto;
+    }
   }
   &::before {
     content: '';
@@ -61,13 +76,29 @@ export default {
     width: 1px;
     height: calc(100% - 80px);
     background-color: #999;
-    left: calc(50% - 10px);
+    left: 50%;
+    @include rwd(768px) {
+      left: 56px;
+    }
+    @include rwd(480px) {
+      display: none;
+    }
   }
   .item {
     width: 50%;
     float: right;
     margin-bottom: 20px;
     position: relative;
+    @include rwd(768px) {
+      float: none;
+      width: calc(100% - 70px);
+      margin-left: 70px;
+    }
+    @include rwd(480px) {
+      width: 100%;
+      margin-left: 0;
+    }
+
     dt {
       position: absolute;
       width: 60px;
@@ -77,17 +108,37 @@ export default {
       line-height: 60px;
       background-color: #999;
       color: #fff;
-      left: -40px;
-      font-size: 1.8rem;
+      left: -30px;
       z-index: 2;
+      @include rwd(768px) {
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        left: -70px;
+      }
+      @include rwd(480px) {
+        position: relative;
+        margin: 0 auto 10px auto;
+        left: 0;
+      }
     }
     dd {
-      margin-left: 36px;
       position: relative;
+      width: 90%;
+      float: right;
       z-index: 1;
       background-color: rgba(255, 255, 255, 0.6);
       padding: 12px 22px 16px 22px;
       border-radius: 20px;
+      @include rwd(991px) {
+        width: 88%;
+      }
+      @include rwd(768px) {
+        width: 100%;
+        float: none;
+        padding: 8px 15px 14px 15px;
+      }
+
       &::before {
         content: '';
         position: absolute;
@@ -98,12 +149,18 @@ export default {
         left: -60px;
         top: 30px;
         z-index: -1;
+        @include rwd(768px) {
+          left: -60px;
+          top: 23px;
+        }
+        @include rwd(480px) {
+          display: none;
+        }
       }
     }
     .tit {
       padding-left: 4px;
       font-weight: 700;
-      font-size: 2rem;
     }
     ul {
       padding-left: 10px;
@@ -129,16 +186,39 @@ export default {
     &:nth-child(even) {
       float: left;
       margin-top: 86px;
+      @include rwd(768px) {
+        float: none;
+        margin-top: unset;
+      }
+
       dt {
         left: unset;
-        right: -20px;
+        right: -30px;
+        @include rwd(768px) {
+          left: -70px;
+          right: unset;
+        }
+        @include rwd(480px) {
+          position: relative;
+          margin: 0 auto 10px auto;
+          left: 0;
+        }
       }
       dd {
-        width: 88%;
-        margin-left: 0;
+        float: left;
+        @include rwd(768px) {
+          float: none;
+        }
+
         &:before {
-          left: unset;
           right: -60px;
+          left: unset;
+          @include rwd(768px) {
+            left: -60px;
+          }
+          @include rwd(480px) {
+            display: none;
+          }
         }
       }
       ul {
@@ -147,7 +227,11 @@ export default {
     }
     &:nth-child(4) {
       margin-top: 22px;
-      margin-bottom: 140px;
+      margin-bottom: 230px;
+      @include rwd(768px) {
+        margin-top: unset;
+        margin-bottom: 20px;
+      }
     }
   }
 }

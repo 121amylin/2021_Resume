@@ -19,6 +19,8 @@
       <a href="#" @click="closeLightBox" class="light_box_btn close_btn"
         ><i class="gg-close-o"></i
       ></a>
+      <!-- <p>{{ lightBoxData }}</p> -->
+
       <div class="show_picture">
         <img :src="require(`../assets${lightBoxData[showNow]}`)" alt="" />
       </div>
@@ -59,8 +61,7 @@ export default {
     return {
       isShowLightBox: false,
       lightBoxData: [],
-      showNow: null,
-      thumbnailSize: 10
+      showNow: null
     }
   },
   computed: {
@@ -89,18 +90,18 @@ export default {
       const max = this.lightBoxData.length
       this.showNow += num
       if (num === -1) {
-        const temp = this.get_lightBoxData.splice(max - 1, max)
+        const [temp] = this.get_lightBoxData.splice(max - 1, 1)
         this.get_lightBoxData.unshift(temp)
       }
       if (num === 1) {
-        const temp = this.get_lightBoxData.splice(0, 1)
+        const [temp] = this.get_lightBoxData.splice(0, 1)
         this.get_lightBoxData.push(temp)
       }
       if (this.showNow <= 0) {
         this.showNow = 0
       }
-      if (this.showNow >= max) {
-        this.showNow = max
+      if (this.showNow >= max - 1) {
+        this.showNow = max - 1
       }
     },
     assignHandle (num) {

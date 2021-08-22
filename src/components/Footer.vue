@@ -8,9 +8,7 @@
         <!-- <router-link to='/Ability'>能力自評</router-link> -->
         <router-link to="/more">了解更多</router-link>
       </div>
-      <div class="copyright" v-if="isloadend">
-        © {{ getYear }} {{ get_title }}
-      </div>
+      <div class="copyright">© {{ getYear }} {{ get_title }}</div>
     </div>
   </div>
 </template>
@@ -18,11 +16,6 @@
 <script>
 export default {
   name: 'Footer',
-  data () {
-    return {
-      isloadend: false
-    }
-  },
   computed: {
     getYear () {
       return new Date().getFullYear()
@@ -30,29 +23,38 @@ export default {
     get_title () {
       return this.$store.state.into.title
     }
-  },
-  mounted () {
-    if (this.$store.state) {
-      this.isload = true
-    }
   }
 }
 </script>
 
 <style scoped lang="scss">
+@import '../scss/common';
+
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
+  margin-top: 40px;
   border-top: 1px solid #ddd;
+  @include rwd(768px) {
+    flex-direction: column;
+  }
 }
 
 #nav {
   padding: 0;
+  @include rwd(768px) {
+    margin-bottom: 10px;
+  }
+
   a {
-    font-size: 1.4rem;
     padding: 6px;
+    color: $gray_color;
+
+    &.router-link-exact-active {
+      color: $main_color;
+    }
   }
 }
 </style>

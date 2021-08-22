@@ -109,17 +109,16 @@
   right: 1px;
 }
 
-
 // https://css.gg/close-o
 .gg-close-o {
   box-sizing: border-box;
   position: relative;
   display: block;
-  transform: scale(var(--ggs,1));
+  transform: scale(var(--ggs, 1));
   width: 22px;
   height: 22px;
   border: 2px solid;
-  border-radius: 40px
+  border-radius: 40px;
 }
 .gg-close-o::after,
 .gg-close-o::before {
@@ -133,12 +132,11 @@
   transform: rotate(45deg);
   border-radius: 5px;
   top: 8px;
-  left: 3px
+  left: 3px;
 }
 .gg-close-o::after {
-  transform: rotate(-45deg)
+  transform: rotate(-45deg);
 }
-
 
 // https://css.gg/arrow-left-o
 .gg-arrow-left-o {
@@ -148,8 +146,8 @@
   width: 22px;
   height: 22px;
   border: 2px solid;
-  transform: scale(var(--ggs,1));
-  border-radius: 22px
+  transform: scale(var(--ggs, 1));
+  border-radius: 22px;
 }
 .gg-arrow-left-o::after,
 .gg-arrow-left-o::before {
@@ -157,7 +155,7 @@
   display: block;
   box-sizing: border-box;
   position: absolute;
-  left: 4px
+  left: 4px;
 }
 .gg-arrow-left-o::after {
   width: 6px;
@@ -165,16 +163,14 @@
   border-bottom: 2px solid;
   border-left: 2px solid;
   transform: rotate(45deg);
-  bottom: 6px
+  bottom: 6px;
 }
 .gg-arrow-left-o::before {
   width: 10px;
   height: 2px;
   bottom: 8px;
-  background: currentColor
+  background: currentColor;
 }
-
-
 
 // https://css.gg/arrow-right-o
 .gg-arrow-right-o {
@@ -184,8 +180,8 @@
   width: 22px;
   height: 22px;
   border: 2px solid;
-  transform: scale(var(--ggs,1));
-  border-radius: 20px
+  transform: scale(var(--ggs, 1));
+  border-radius: 20px;
 }
 .gg-arrow-right-o::after,
 .gg-arrow-right-o::before {
@@ -193,7 +189,7 @@
   display: block;
   box-sizing: border-box;
   position: absolute;
-  right: 4px
+  right: 4px;
 }
 .gg-arrow-right-o::after {
   width: 6px;
@@ -201,11 +197,43 @@
   border-top: 2px solid;
   border-right: 2px solid;
   transform: rotate(45deg);
-  bottom: 6px
+  bottom: 6px;
 }
 .gg-arrow-right-o::before {
   width: 10px;
   height: 2px;
   bottom: 8px;
-  background: currentColor
+  background: currentColor;
+}
+
+//https://css.gg/sweden
+
+.gg-sweden {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: -1px;
+  transform: scale(var(--ggs, 1));
+  width: 21px;
+  height: 16px;
+}
+.gg-sweden::after,
+.gg-sweden::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  height: 6px;
+  background: currentColor;
+  box-shadow: 0 8px 0;
+  top: 0;
+}
+.gg-sweden::before {
+  left: 0;
+  width: 7px;
+}
+.gg-sweden::after {
+  width: 12px;
+  right: 0;
 }

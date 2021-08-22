@@ -20,14 +20,14 @@
               <!-- <img :src="item.pic" alt="" /> -->
             </td>
             <td class="project_name">
-              <h3 class="title">
+              <h4 >
                 <a :href="item.link" target="_blank"
-                  >{{ item.title }}<span class="gg-log-in"></span>
+                  >{{ item.title }}<span><i class="gg-log-in"></i></span>
                 </a>
-              </h3>
+              </h4>
             </td>
             <td class="project_descript">
-              <h3>專案說明：</h3>
+              <h4>專案說明：</h4>
               <p>{{ item.descript }}</p>
               <ul class="link_list">
                 <li v-for="(n, index) in item.list" :key="index">

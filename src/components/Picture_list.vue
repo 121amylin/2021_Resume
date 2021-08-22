@@ -6,7 +6,7 @@
           <img :src="require(`../assets${item.pic}`)" alt="" />
         </div>
         <div class="content">
-          <h3>{{ item.title }}</h3>
+          <h4 class="tit">{{ item.title }}</h4>
           <p>{{ item.descript }}</p>
         </div>
         <div class="link_icon_box"><i class="link_icon"></i></div>
@@ -29,10 +29,11 @@ export default {
 .picture_list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -10px;
   li {
     width: calc(33.3% - 30px);
     margin: 15px;
-    border: 1px solid $gray_color;
+    border: 1px solid $light_gray_color;
     @include rwd(991px) {
       width: calc(50% - 20px);
       margin: 10px;
@@ -61,12 +62,7 @@ export default {
     padding: 0 20px;
     color: $gray_color;
     h3 {
-      font-size: 18px;
-      color: $main_color;
       transition: color 0.3s;
-    }
-    p {
-      font-size: 16px;
     }
   }
   .link_icon_box {

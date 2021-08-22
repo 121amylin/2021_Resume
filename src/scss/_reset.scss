@@ -13,18 +13,31 @@ a {
   display: inline-block;
   color: #000;
   text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+  &:hover {
+    color: $main_color;
+  }
 }
 dt,
 th {
   font-size: 1.8rem;
   font-weight: 700;
+  @include rwd(768px) {
+    font-size: 1.5rem;
+  }
 }
 dd,
 td,
 li a,
-p {
+p,
+#nav a,
+.content_text {
   line-height: 1.75;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  @include rwd(768px) {
+    font-size: 1.5rem;
+  }
 }
 li {
   list-style: none;

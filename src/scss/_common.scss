@@ -1,14 +1,20 @@
 @import "var_mixin";
 @import "reset";
-body.fixed{
+body.fixed {
   position: fixed;
 }
-.main_color_10_bg {
-  background-color: $main_color_10;
+.main_color_20_bg {
+  background-color: $main_color_20;
 }
 .bgam {
   min-height: 100vh;
   padding: 40px;
+  @include rwd(1280px) {
+    padding: 30px;
+  }
+  @include rwd(768px) {
+    padding: 20px;
+  }
 }
 .wrwp {
   border-radius: 30px;
@@ -17,10 +23,24 @@ body.fixed{
 }
 .container {
   padding: 0 40px;
+  @include rwd(768px) {
+    padding: 0 30px;
+  }
+  @include rwd(400px) {
+    padding: 0 20px;
+  }
 }
 .section {
   margin-top: 40px;
   margin-bottom: 40px;
+  @include rwd(768px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  @include rwd(400px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 .clear {
   &::after {
@@ -34,4 +54,29 @@ body.fixed{
 }
 .flex {
   display: flex;
+}
+h3 {
+  font-size: 2.4rem;
+  color: $main_color;
+  margin-bottom: 16px;
+  @include rwd(768px) {
+    font-size: 2rem;
+  }
+}
+h4{
+  font-size: 1.8rem;
+  @include rwd(768px) {
+    font-size: 1.6rem;
+  }
+}
+.tit {
+  font-size: 2rem;
+  color: $main_color;
+  margin-bottom: 8px;
+  @include rwd(768px) {
+    font-size: 1.7rem;
+  }
+}
+.row {
+  margin-bottom: 30px;
 }
