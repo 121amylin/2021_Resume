@@ -193,6 +193,7 @@
   ],
   "wrok_group": {
     "public_sector": {
+      "class":"公家機關專案",
       "name": "public_sector",
       "type": "TableArr",
       "descript": "",
@@ -244,6 +245,7 @@
       ]
     },
     "custom_program": {
+      "class": "客製化程式專案",
       "name": "custom_program",
       "type": "TableArr",
       "descript": "",
@@ -278,6 +280,7 @@
       ]
     },
     "chamge_to_web": {
+      "class": "切版專案",
       "name": "chamge_to_web",
       "type": "PictureList",
       "descript": "",
@@ -349,6 +352,7 @@
       ]
     },
     "one_page": {
+      "class": "一頁式網站專案",
       "name": "one_page",
       "type": "PictureList",
       "descript": "",
@@ -428,6 +432,7 @@
       ]
     },
     "design": {
+      "class": "網站視覺專案",
       "name": "design",
       "type": "TableObj",
       "descript": "",
@@ -692,6 +697,7 @@
       ]
     },
     "template": {
+      "class": "模板型專案",
       "name": "template",
       "type": "PictureList",
       "descript": "",
@@ -819,6 +825,7 @@
       ]
     },
     "unid_design_make": {
+      "class": "單元型製作專案",
       "name": "unid_design_make",
       "type": "PictureList",
       "descript": "",
@@ -882,6 +889,7 @@
       ]
     },
     "Design_OEM": {
+      "class": "OEM製作",
       "name": "Design_OEM",
       "type": "TableObj",
       "descript": "",
@@ -907,6 +915,7 @@
       ]
     },
     "design_GDN": {
+      "class": "GDN設計",
       "name": "design_GDN",
       "type": "Lightbox",
       "descript": "",
@@ -1115,36 +1124,42 @@
     "work": [
       {
         "id": 0,
+        "title": "github-121amylin",
+        "descript": "我的githup帳戶",
+        "url": "https://github.com/121amylin"
+      },
+      {
+        "id": 1,
         "title": "2021作品整理",
         "descript": "2021作品整理",
         "url": "https://github.com/121amylin/2021_Resume"
       },
       {
-        "id": 1,
+        "id": 2,
         "title": "KM",
         "descript": "個人知識庫，蒐集常用的線上工具、靈感來源等網站",
         "url": "https://121amylin.github.io/KM/"
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "JS30WithVue",
         "descript": "嘗試將JS30用Vue改寫",
         "url": "https://github.com/121amylin/JS30WithVue"
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "one_Page_Tools_With_Vue",
         "descript": "參考W3C中javaScript範例，將其改寫成Vue版練習",
         "url": "https://github.com/121amylin/one_Page_Tools_With_Vue"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "webpack_setting",
         "descript": "webpack工具測試與建立常用的專案模板",
         "url": "https://github.com/121amylin/webpack_setting"
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "HTML-CSS-Forms",
         "descript": "熟悉和Forms相關的HTML屬性與CSS設定",
         "url": "https://github.com/121amylin/HTML-CSS-Forms"

@@ -12,7 +12,7 @@
               @click="changeClassHandle(item)"
               v-show="item.type != ''"
             >
-              <p>{{ item.name }}</p>
+              <p>{{ item.class }}</p>
             </li>
           </ul>
         </div>
