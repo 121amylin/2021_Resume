@@ -21,7 +21,7 @@ const routes = [
   },
   {
     path: '/vue_work',
-    name: 'vue_work',
+    name: 'Vue_work',
     component: vueWork
   },
   {
