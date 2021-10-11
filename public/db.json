@@ -4,8 +4,8 @@
       "title": "林欣美作品集網站",
       "name": "林欣美",
       "sec_mane": "shin-mei,lin",
-      "introduce": "我有4~5年的網頁開發經驗，主要工作技能包含開／切／套版，熟悉HTML／CSS語法的切版技巧與製作網頁互動效果、動畫等等。我非常喜愛現在自己選擇工作領域，對於網站開發有強烈的求知慾與好奇心，喜歡追求產業新知與工作上的成就感。",
-      "mail": "122amylin@gmail.com"
+      "introduce": "我有4~5年的網頁開發經驗，目前工作職務屬於網頁設計師，工作上主要包含開／切／套版，我熟悉HTML語意化應用搭配CSS/SCSS手刻或使用library ( 如 : bootstrap ) 的切版技巧，並使用javaScript/jQuery製作網頁互動效果、動畫等等。我非常喜愛現在自己選擇工作領域，對於網站開發有強烈的求知慾與好奇心，所以我也運用下班後的時間精進javaScript、ES6的技能，學習Vue前端框架，了解常用的設計模式、設計原則、模組化開發、API串接、webpack、版本控制、HTTP傳輸協議、資料庫、CORS等知識內容。",
+      "mail": "121amylin@gmail.com"
     }
   },
   "experience": [
@@ -15,10 +15,10 @@
       "unit": "久大行銷",
       "title": "網頁設計師",
       "content": [
-        "完成8家以上企業網站開版製作",
-        "完成12家以上企業網站切版製作",
+        "完成12家以上企業網站開版製作",
+        "完成14家以上企業網站切版製作",
         "完成35家以上企業網站套版製作",
-        "協助108家企業網站維護"
+        "協助128家企業網站維護"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "year": "2010",
       "school": "新民高中",
       "unit": "多媒體動畫科",
-      "class": "",
+      "class": " ",
       "state": "畢業"
     }
   ],
@@ -76,25 +76,31 @@
       "item": [
         {
           "id": 0,
-          "class": "HTML5",
+          "class": "Vue / javaScript / jQuery",
           "descript": [
-            "符合W3C規範的語意標籤",
-            "讓搜尋引擎了解網頁中每個區塊的意義"
+            "了解 Vue Cli / Vue router / Vuex 如何搭配應用",
+            "了解模組化開發的觀念",
+            "了解近年前框框架風行資料驅動畫面、資料管理的概念",
+            "持續精進javaScript技能",
+            "應用JQuery套件完成客戶需求"
           ]
         },
         {
           "id": 1,
           "class": "SCSS / CSS3",
           "descript": [
-            "手刻 RWD 頁面",
             "熟悉 SCSS 語法，模組化、層級繼承觀念",
-            "Bootstrap框架應用"
+            "Bootstrap框架應用",
+            "手刻 RWD 頁面"
           ]
         },
         {
           "id": 2,
-          "class": "jQuery / javaScript",
-          "descript": ["應用JQuery套件完成客戶需求", "持續精進javaScript技能"]
+          "class": "HTML5",
+          "descript": [
+            "符合W3C規範的語意標籤",
+            "讓搜尋引擎了解網頁中每個區塊的意義"
+          ]
         }
       ]
     },
@@ -107,10 +113,9 @@
           "id": 0,
           "class": "UI/UX設計技能",
           "descript": [
-            "使用者介面設計",
-            "illustrator 向量圖形",
-            "使用Photoshop 繪製素材",
-            "網站主視覺圖"
+            "使用Adobe XD製作使用者介面與互動效果設計",
+            "使用Photoshop 繪製素材、主視覺",
+            "使用illustrator 向量素材"
           ]
         }
       ]
@@ -118,15 +123,11 @@
     {
       "id": 2,
       "class": "其他",
-        "item": [
+      "item": [
         {
           "id": 0,
           "class": "開發環境知識",
-          "descript": [
-            "版控",
-            "webpack",
-            "http傳輸知識"
-          ]
+          "descript": ["Git版本控制(分支、合併、剪枝...)", "webpack開發方式", "http傳輸知識", "CORS"]
         }
       ]
     }
@@ -193,7 +194,7 @@
   ],
   "wrok_group": {
     "public_sector": {
-      "class":"公家機關專案",
+      "class": "公家機關專案",
       "name": "public_sector",
       "type": "TableArr",
       "descript": "",

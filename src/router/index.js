@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 // import Into from '../views/Into.vue'
+import vueWork from '../views/Vue_work.vue'
 import Work from '../views/Work.vue'
 // import Ability from '../views/Ability.vue'
 import More from '../views/More.vue'
@@ -18,7 +19,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
-
+  {
+    path: '/vue_work',
+    name: 'vue_work',
+    component: vueWork
+  },
   {
     path: '/work',
     name: 'Work',

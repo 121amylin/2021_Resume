@@ -20,7 +20,8 @@
       <dl class="education item" v-for="item in get_education" :key="item.year">
         <dt>{{ item.year }}</dt>
         <dd>
-          <div class="tit">{{ item.unit }}，{{ item.school }}</div>
+          <div class="tit">{{ item.school }}<br>{{ item.unit }} {{item.class}}<br>
+{{item.state}}</div>
           <ul>
             <li v-for="(item, index) in item.content" :key="index">
               {{ item }}

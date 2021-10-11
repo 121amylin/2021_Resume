@@ -45,7 +45,7 @@ export default new Vuex.Store({
   },
   actions: {
     getdbapi (store) {
-      axios.get('./db.json').then((response) => {
+      axios.get('https://121amylin.github.io/2021resume/db.json').then((response) => {
         store.commit('GET_INTO', response.data.into.descript)
         store.commit('GET_EXPERIENCE', response.data.experience)
         store.commit('GET_EDUCATION', response.data.education)
